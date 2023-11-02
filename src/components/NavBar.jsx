@@ -3,7 +3,7 @@ import Logo from '../Assests/e81f2a50-f965-4a1b-b4ce-19d1c8256623.png'
 
 const NavBar = () => {
   return (
-    <nav className='h-[4rem] w-[100%] py-2 px-[8rem] flex justify-between bg-white sticky top-0 items-center shadow-md'>
+    <nav className='h-[4rem] w-[100%] z-50 py-2 px-[8rem] flex justify-between bg-white fixed top-0 items-center shadow-md'>
         <div className='flex justify-center items-center'>
             <img src={Logo} alt="" className='h-6'/>
             <h1 className='font-bold text-[#545454]'>SHIVAM</h1>
