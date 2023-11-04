@@ -1,0 +1,16 @@
+
+#moving-div {
+    background-color: white;
+    position: relative;
+    animation: moveRightLeft 4s ease-in-out infinite;
+  }
+  
+  @keyframes moveRightLeft {
+    0%, 100% {
+      left: 0;
+    }
+    50% {
+      left: 100%;
+    }
+  }
+

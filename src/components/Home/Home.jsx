@@ -9,17 +9,27 @@ import Tilt from "react-vanilla-tilt";
 const Home = () => {
   return (
     <>
-      <ParticleBackGround />
       <div
         id="Home"
-        className="h-[100vh] w-full mx-auto flex justify-center items-center"
+        className="h-[100vh] w-full mx-auto flex lg:flex-row flex-col justify-center items-center lg:pt-[22vh] md:pt-[30vh] pt-0 lg:pb-[10vh] md:pb-[20vh] pb-0 gap-8"
       >
-        <div className="w-[60%] pl-[14vw] flex flex-col gap-4">
-          <h1 className="text-5xl text-[#294f7a] font-bold">Hi There,</h1>
-          <h1 className="text-5xl font-bold">
+        <div className="w-auto flex items-start flex-col gap-4 px-8">
+          <div className="flex flex-col items-center">
+            <h1 className="text-5xl text-[#294f7a] font-bold mb-2">
+              Hi There,
+            </h1>
+            <div className="w-[110%] h-[4px] bg-[#aacded] rounded-2xl">
+              <div
+                id="moving-div"
+                className=" w-[8px] h-full rounded-full "
+              ></div>
+            </div>
+          </div>
+
+          <h1 className="lg:text-6xl md:text-6xl text-[4.7vh] font-bold">
             I'm Shivam <span className="text-[#68a9e4]">Shaw</span>
           </h1>
-          <div className="text-3xl font-bold flex">
+          <div className="lg:text-2xl md:text-2xl text-[2vh]  font-bold flex">
             <h1>I'm into&nbsp;</h1>
             <span className=" text-[#68a9e4] flex">
               &lt;
@@ -48,12 +58,12 @@ const Home = () => {
           </a>
           <Links />
         </div>
-        <div className="w-[40%] h-auto flex items-center rounded-full ">
+        <div className="w-auto h-auto flex items-center rounded-full ">
           <Tilt style={{ borderRadius: "50%" }}>
             <img
               src={pic}
               alt="pic"
-              className="w-[33vw] h-[60vh] shadow-2xl"
+              className="lg:w-[30vw] md:w-[45vw] w-[80vw] h-auto  shadow-2xl"
               style={{ borderRadius: "50%" }}
             />
           </Tilt>

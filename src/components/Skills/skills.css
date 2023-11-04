@@ -1,4 +1,12 @@
 img{
-    height: 7vh;
+    height: 30px;
+    width: 30px;
 }
-
+.right div{
+    font-weight: 800;
+}
+.right p{
+    font-size: 2vh;
+    color: gray;
+    font-weight: 600;
+}
