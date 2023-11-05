@@ -11,7 +11,7 @@ const Home = () => {
     <>
       <div
         id="Home"
-        className="h-[100vh] w-full mx-auto flex lg:flex-row flex-col justify-center items-center lg:pt-[22vh] md:pt-[30vh] pt-[10vh] lg:pb-[10vh] md:pb-[20vh] pb-0 gap-8"
+        className="h-[100vh] w-full mx-auto flex lg:flex-row flex-col justify-center items-center lg:pt-[22vh] md:pt-[30vh] pt-[20vh] lg:pb-[10vh] md:pb-[20vh] pb-0 gap-8"
       >
         <div className="w-auto flex items-start flex-col gap-4 px-8">
           <div className="flex flex-col items-center">
@@ -26,10 +26,10 @@ const Home = () => {
             </div>
           </div>
 
-          <h1 className="lg:text-6xl md:text-6xl text-[4.7vh] font-bold">
+          <h1 className="lg:text-6xl md:text-6xl text-[5.5vh] font-bold">
             I'm Shivam <span className="text-[#68a9e4]">Shaw</span>
           </h1>
-          <div className="lg:text-2xl md:text-2xl text-[2vh]  font-bold flex">
+          <div className="lg:text-2xl md:text-2xl text-[2.4vh]  font-bold flex">
             <h1>I'm into&nbsp;</h1>
             <span className=" text-[#68a9e4] flex">
               &lt;
