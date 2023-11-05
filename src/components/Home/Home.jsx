@@ -11,7 +11,7 @@ const Home = () => {
     <>
       <div
         id="Home"
-        className="h-[100vh] w-full mx-auto flex lg:flex-row flex-col justify-center items-center lg:pt-[22vh] md:pt-[30vh] pt-0 lg:pb-[10vh] md:pb-[20vh] pb-0 gap-8"
+        className="h-[100vh] w-full mx-auto flex lg:flex-row flex-col justify-center items-center lg:pt-[22vh] md:pt-[30vh] pt-[10vh] lg:pb-[10vh] md:pb-[20vh] pb-0 gap-8"
       >
         <div className="w-auto flex items-start flex-col gap-4 px-8">
           <div className="flex flex-col items-center">
