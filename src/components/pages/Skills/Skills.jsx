@@ -1,22 +1,24 @@
 import React from "react";
 import "./skills.css";
-import "../about.css";
-import react from "../../Assests/icons/react-svgrepo-com.svg";
-import node from "../../Assests/icons/node-js-svgrepo-com.svg";
-import express from "../../Assests/icons/node-js-svgrepo-com (1).svg";
-import redux from "../../Assests/icons/redux-svgrepo-com.svg";
-import DSA from "../../Assests/icons/code-svgrepo-com.svg";
-import Mongo from "../../Assests/icons/mongo-svgrepo-com.svg";
-import html from "../../Assests/icons/html-5-svgrepo-com.svg";
-import css from "../../Assests/icons/css-3-svgrepo-com.svg";
-import python from "../../Assests/icons/python-svgrepo-com.svg";
-import js from "../../Assests/icons/js-official-svgrepo-com.svg";
-import cpp from "../../Assests/icons/c-.png";
-import c from "../../Assests/icons/letter-c.png";
-import net from "../../Assests/icons/netlify-svgrepo-com.svg";
-import git from "../../Assests/icons/git-svgrepo-com.svg";
-import github from "../../Assests/icons/github-142-svgrepo-com.svg";
-import team from "../../Assests/icons/team-work-svgrepo-com.svg";
+import "../../pages/About/about.css";
+import react from "../../../Assests/icons/react-svgrepo-com.svg";
+import node from "../../../Assests/icons/node-js-svgrepo-com.svg";
+import express from "../../../Assests/icons/node-js-svgrepo-com (1).svg";
+import redux from "../../../Assests/icons/redux-svgrepo-com.svg";
+import DSA from "../../../Assests/icons/code-svgrepo-com.svg";
+import Mongo from "../../../Assests/icons/mongo-svgrepo-com.svg";
+import html from "../../../Assests/icons/html-5-svgrepo-com.svg";
+import css from "../../../Assests/icons/css-3-svgrepo-com.svg";
+import python from "../../../Assests/icons/python-svgrepo-com.svg";
+import js from "../../../Assests/icons/js-official-svgrepo-com.svg";
+import cpp from "../../../Assests/icons/c-.png";
+import c from "../../../Assests/icons/letter-c.png";
+import net from "../../../Assests/icons/netlify-svgrepo-com.svg";
+import git from "../../../Assests/icons/git-svgrepo-com.svg";
+import github from "../../../Assests/icons/github-142-svgrepo-com.svg";
+import team from "../../../Assests/icons/team-work-svgrepo-com.svg";
+import skill from "../../../Assests/skill-svgrepo-com.svg";
+import { motion } from "framer-motion";
 
 const Skills = () => {
   return (
@@ -24,17 +26,23 @@ const Skills = () => {
       id="Skill"
       className="h-[auto] py-20 w-[85vw] flex flex-col gap-6 mx-auto items-center"
     >
-      <div className="absolute -left-[60vh] w-[600px] h-[600px] rounded-full z-0 bg-[#D9F0E0]"></div>
-      <div className="flex flex-col items-center">
-        <h1 className=" lg:text-[7vh] md:text-[7vh] text-3xl font-bold tracking-wide mb-2">
-          Skills & <span className="text-[#68a9e4]">Experience</span>
-        </h1>
+      <motion.div 
+      initial={{opacity:0,scale:0}}
+      animate={{opacity:1,scale:1}}
+      transition={{duration:2}} className="absolute -left-[60vh] w-[600px] h-[600px] rounded-full z-0 bg-[#D9F0E0]"></motion.div>
+      <div className="flex flex-col items-center gap-1">
+        <div className="flex items-center justify-center gap-2">
+          <img src={skill} alt="skill" className=" h-[7vh] w-auto" />
+          <h1 className=" lg:text-[7vh] md:text-[7vh] text-2xl font-bold tracking-wide mb-2">
+            Skills & <span className="text-[#68a9e4]">Experience</span>
+          </h1>
+        </div>
         <div className="w-[110%] h-[4px] bg-[#aacded] rounded-2xl ">
           <div id="moving-div" className=" w-[8px] h-full rounded-full "></div>
         </div>
       </div>
       <div className="flex md:flex-row lg:flex-row flex-col justify-center lg:gap-20 gap-8 w-[85vw] relative z-10">
-        <div className="grid grid-cols-4 w-auto justify-center items-center py-6 ">
+        <div className="grid grid-cols-4 w-auto justify-center items-center py-6 gap-4">
           <div className="animate flex flex-col mt-4 text-[1.4vh] font-semibold justify-center items-center py-2 px-6 h-[87px] w-[87px] rounded-full bg-[#d4e3ea6d] hover:scale-105 hover:shadow-2xl transition-all duration-300">
             <img src={react} alt="react" />
             <div>ReactJs</div>
@@ -101,45 +109,37 @@ const Skills = () => {
           </div>
         </div>
         <div className="right w-auto flex flex-col text-sm gap-16 justify-evenly h-full py-12">
-          <div className="flex gap-4 items-baseline">
+          <motion.div
+          initial={{opacity:0,x:100}}
+          whileInView={{opacity:1,x:0}}
+          transition={{duration:1.2}}
+          className="flex gap-4 items-baseline">
+            <div>2022</div>
             <div>
-              2022
+              <p>Lorem ipsum dolor sit amet consectetur</p>
+              <p>Lorem, ipsum.</p>
             </div>
+          </motion.div>
+          <motion.div
+          initial={{opacity:0,x:200}}
+          whileInView={{opacity:1,x:0}}
+          transition={{duration:1.9}} className="flex gap-4 items-baseline">
+            <div>2022</div>
             <div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur 
-              </p>
-              <p>
-                Lorem, ipsum.
-              </p>
+              <p>Lorem ipsum dolor sit amet consectetur</p>
+              <p>Lorem, ipsum.</p>
             </div>
-          </div>
-          <div className="flex gap-4 items-baseline">
+          </motion.div>
+          <motion.div
+          initial={{opacity:0,x:300}}
+          whileInView={{opacity:1,x:0}}
+          transition={{duration:2.3}} className="flex gap-4 items-baseline">
+            <div>2022</div>
             <div>
-              2022
+              <p>Lorem ipsum dolor sit amet consectetur</p>
+              <p>Lorem, ipsum.</p>
             </div>
-            <div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur
-              </p>
-              <p>
-                Lorem, ipsum.
-              </p>
-            </div>
-          </div>
-          <div className="flex gap-4 items-baseline">
-            <div>
-              2022
-            </div>
-            <div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur
-              </p>
-              <p>
-                Lorem, ipsum.
-              </p>
-            </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>

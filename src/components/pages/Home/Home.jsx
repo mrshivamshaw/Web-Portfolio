@@ -1,28 +1,44 @@
-import React, { useEffect } from "react";
 import Typewriter from "typewriter-effect";
-import pic from "../../Assests/pic.jpeg";
+import pic from "../../../Assests/pic.jpeg";
 import { AiOutlineArrowUp } from "react-icons/ai";
 import Links from "../Links/Links";
 import "./home.css";
 import Tilt from "react-vanilla-tilt";
+import {motion, spring,} from 'framer-motion'
+
 const Home = () => {
   return (
     <>
       <div
-        id="Home"
+        
         className="h-[100vh] w-full mx-auto flex lg:flex-row flex-col justify-center items-center pt-[4vh] lg:pt-[22vh] md:pt-[80vh] lg:pb-[10vh] md:pb-[70vh] pb-[2vh] gap-8"
       >
-        <div className="w-auto flex items-start flex-col gap-4 px-8">
+        <motion.div 
+          initial={{opacity:0,y:-100}}
+          whileInView={{opacity:1,y:0}}
+          transition={{duration:2}}
+          className="w-auto flex items-start flex-col gap-4 px-8">
           <div className="flex flex-col items-center">
-            <h1 className="text-5xl text-[#294f7a] font-bold mb-2">
+            <motion.h1
+              // initial={{opacity:0,x:-30}}
+              // transition={{duration:1.5,type:spring, stiffness:100}}
+              
+              // animate={{opacity:1,x:0}}
+              // whileInView={{opacity:1}}
+             className="text-5xl text-[#294f7a] font-bold mb-2">
               Hi There,
-            </h1>
-            <div className="w-[110%] h-[4px] bg-[#aacded] rounded-2xl">
+            </motion.h1>
+            <motion.div
+              // initial={{opacity:0,x:-30}}
+              // transition={{duration:1}}
+              // animate={{opacity:1,x:0}}
+              // whileInView={{opacity:1}} 
+              className="w-[110%] h-[4px] bg-[#aacded] rounded-2xl">
               <div
                 id="moving-div"
                 className=" w-[8px] h-full rounded-full "
               ></div>
-            </div>
+            </motion.div>
           </div>
 
           <h1 className="lg:text-6xl md:text-6xl text-[4.7vh] font-bold">
@@ -56,9 +72,14 @@ const Home = () => {
             </button>
           </a>
           <Links />
-        </div>
-        <div className="w-auto h-auto flex items-center rounded-full ">
-          <Tilt style={{ borderRadius: "50%" }}>
+        </motion.div>
+        <motion.div 
+         initial={{opacity:0,scale:0.3}}
+         transition={{duration:1.5}}
+         whileInView={{opacity:1,scale:1}}
+        className="w-auto h-auto flex items-center rounded-full ">
+          <Tilt
+           style={{ borderRadius: "50%" }}>
             <img
               src={pic}
               alt="pic"
@@ -66,7 +87,7 @@ const Home = () => {
               style={{ borderRadius: "50%" }}
             />
           </Tilt>
-        </div>
+        </motion.div>
       </div>
     </>
   );
