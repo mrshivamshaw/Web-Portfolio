@@ -4,6 +4,7 @@ import person from "../../../Assests/man.png";
 import Tilt from "react-vanilla-tilt";
 import { motion } from "framer-motion";
 import './about.css'
+
 const About = () => {
   return (
     <div
@@ -96,9 +97,11 @@ const About = () => {
           </motion.div>
         </div>
       </div>
+      <a href={pic} download={pic}>
       <button className="px-8 py-3 bg-[#4b97dd] rounded-full text-xl font-semibold hover:font-bold hover:scale-90 shadow-xl hover:shadow-2xl transition-all duration-500">
         Resume <span>&gt;</span>
       </button>
+      </a>
     </div>
   );
 };

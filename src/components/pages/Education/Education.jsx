@@ -33,9 +33,9 @@ const Education = () => {
   
   return (
     <div id="Education" className="h-auto mb-20 pt-[10vh] relative z-30 gap-6 flex flex-col justify-center items-center px-6">
-      <div className="absolute -right-[60vh] top-[13vh] w-[600px] h-[600px] rounded-full z-0 bg-[#FFD9D9]"></div>
+      <div className="sideCircle absolute -right-[60vh] top-[13vh] w-[600px] h-[600px] rounded-full z-0 bg-[#FFD9D9]"></div>
 
-      <div className="flex flex-col justify-center items-center gap-2 text-5xl font-bold">
+      <div className="z-30 flex flex-col justify-center items-center gap-2 text-5xl font-bold">
         <div className="flex items-center gap-2">
           <img src={student} alt="admi" className="h-[7vh] w-auto" />
           <h1 className=" lg:text-[7vh] md:text-[7vh] text-3xl font-bold tracking-wide mb-2">
@@ -46,7 +46,7 @@ const Education = () => {
           <div id="moving-div" className=" w-[8px] h-full rounded-full "></div>
         </div>
       </div>
-      <h1 className="-mt-2 text-[2vh] font-semibold text-[#7b7777]">"Education is the passport to the future, for tomorrow belongs to those who prepare for it today." - Malcolm X</h1>
+      <h1 className="-mt-2 z-30 text-[2vh] font-semibold text-[#7b7777]">"Education is the passport to the future, for tomorrow belongs to those who prepare for it today." - Malcolm X</h1>
       <motion.div
       variants={containerVariants}
       initial="initial"

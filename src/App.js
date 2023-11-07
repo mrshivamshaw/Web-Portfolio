@@ -5,7 +5,7 @@ import Home from "./components/pages/Home/Home.jsx";
 import Skills from "./components/pages/Skills/Skills.jsx";
 import Education from "./components/pages/Education/Education.jsx";
 import Projects from "./components/pages/Project/Projects.jsx";
-import Contact from "./components/NavBar/NavBar.jsx";
+import Contact from "./components/pages/Contact/Contact.jsx";
 
 function App() {
   return (

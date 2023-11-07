@@ -27,10 +27,8 @@ const Skills = () => {
       className="h-[auto] py-20 w-[85vw] flex flex-col gap-6 mx-auto items-center"
     >
       <motion.div 
-      initial={{opacity:0,scale:0}}
-      animate={{opacity:1,scale:1}}
-      transition={{duration:2}} className="absolute -left-[60vh] w-[600px] h-[600px] rounded-full z-0 bg-[#D9F0E0]"></motion.div>
-      <div className="flex flex-col items-center gap-1">
+       className="sideCircle absolute -left-[60vh] w-[600px] h-[600px] rounded-full z-0 bg-[#D9F0E0]"></motion.div>
+      <div className="flex flex-col items-center gap-1 z-30">
         <div className="flex items-center justify-center gap-2">
           <img src={skill} alt="skill" className=" h-[7vh] w-auto" />
           <h1 className=" lg:text-[7vh] md:text-[7vh] text-2xl font-bold tracking-wide mb-2">
