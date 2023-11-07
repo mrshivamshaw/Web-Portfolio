@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div
     
-      className="h-auto py-20  w-full mx-auto flex flex-col justify-center items-center gap-[9vh]"
+      className="overflow-x-hidden h-auto py-20  w-full mx-auto flex flex-col justify-center items-center gap-[9vh]"
     >
       <motion.div 
       initial={{opacity:0,scale:0}}

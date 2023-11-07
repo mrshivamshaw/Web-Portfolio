@@ -32,7 +32,7 @@ const childVariants: Variants = {
 const Education = () => {
   
   return (
-    <div id="Education" className="h-auto mb-20 pt-[10vh] relative z-30 gap-6 flex flex-col justify-center items-center px-6">
+    <div id="Education" className="overflow-x-hidden h-auto mb-20 pt-[10vh] relative z-30 gap-6 flex flex-col justify-center items-center px-6">
       <div className="sideCircle absolute -right-[60vh] top-[13vh] w-[600px] h-[600px] rounded-full z-0 bg-[#FFD9D9]"></div>
 
       <div className="z-30 flex flex-col justify-center items-center gap-2 text-5xl font-bold">

@@ -9,15 +9,15 @@ import Contact from "./components/pages/Contact/Contact.jsx";
 
 function App() {
   return (
-    <div className="min-h-[100vh] w-[100vw] relative snap-y snap-mandatory box-border overflow-x-hidden">
+    <div className="min-h-[100vh] max-w-[100vw] relative box-border overflow-x-hidden">
       
       <NavBar/>
       <section id="Home"><Home/></section>
       <section id="About"><About/></section>
-      <section id="Skills"><Skills/></section>
-      <section id="Education"><Education/></section>
+       <section id="Skills"><Skills/></section>
+     <section id="Education"><Education/></section>
       <section id="Projects"><Projects/></section>
-      <section id="Contact"><Contact/></section>
+      <section id="Contact"><Contact/></section> 
     </div>
   );
 }

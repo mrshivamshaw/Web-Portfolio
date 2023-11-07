@@ -24,7 +24,7 @@ const Skills = () => {
   return (
     <div
       id="Skill"
-      className="h-[auto] py-20 w-[85vw] flex flex-col gap-6 mx-auto items-center"
+      className="overflow-x-hidden h-[auto] py-20 w-[85vw] flex flex-col gap-6 mx-auto items-center"
     >
       <motion.div 
        className="sideCircle absolute -left-[60vh] w-[600px] h-[600px] rounded-full z-0 bg-[#D9F0E0]"></motion.div>
