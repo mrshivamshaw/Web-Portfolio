@@ -5,6 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+}
+body::-webkit-scrollbar{
+  display: none;
 }
 
 code {
@@ -14,21 +18,5 @@ code {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.sideCircle{
-  animation: scaleUp 1.5s ease-in-out ;
-}
-
-  
-  @keyframes scaleUp {
-    0% {
-      scale: 0;
-      opacity: 0;
-    }
-    100% {
-      scale: 1;
-      opacity: 1;
-    }
-  }
 
 

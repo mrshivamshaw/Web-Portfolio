@@ -31,7 +31,7 @@ const NavBar = () => {
       transition={{ duration: 2 }}
       animate={{ opacity: 1, top: 0 }}
       id="nav"
-      className="h-[4rem] w-[100%]  z-50 py-2 lg:px-[8rem] md:px-[8rem] px-[5vw] flex justify-between  fixed top-0 items-center shadow-md"
+      className="h-[7vh] w-[100%]  z-50 py-2 lg:px-[8rem] md:px-[8rem] px-[5vw] flex justify-between  fixed top-0 items-center shadow-md"
     >
       <div className="flex justify-center items-center">
         <img src={Logo} alt="" className="h-6" />
@@ -67,7 +67,7 @@ const NavBar = () => {
                 // transition={{ duration: 0.5 }}
                 // animate={{ opacity: 1, scale: 1, x: 0 }}
                 initial="hidden" animate="visible" variants={variants}
-                className="flex flex-col justify-between shadow-2xl rounded-b-xl items-center mt-[7.5vh] gap-3 p-3 w-[35vw] h-[30vh] bg-white text-[.82em]"
+                className="flex flex-col justify-between shadow-2xl rounded-b-xl items-center mt-[7.01vh] gap-3 p-3 w-[35vw] h-[30vh] bg-white text-[.82em]"
               >
                 {section.map((item, index) => (
                   <motion.li

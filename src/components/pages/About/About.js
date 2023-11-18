@@ -11,11 +11,10 @@ const About = () => {
     
       className="overflow-x-hidden h-auto py-20  w-full mx-auto flex flex-col justify-center items-center gap-[9vh]"
     >
-      <motion.div 
-      initial={{opacity:0,scale:0}}
-      whileInView={{opacity:1,scale:1}}
-      transition={{duration:2}}
-      className="absolute -right-[60vh] w-[600px] h-[600px] rounded-full z-0 bg-[#FFD9D9]"></motion.div>
+      <motion.div initial={{opacity:0,x:100}}
+      whileInView={{opacity:1,x:0}}
+      // transition={{duration:2}}
+       className="absolute -right-[55vh] w-[600px] h-[600px] rounded-full z-0 bg-[#FFD9D9] duration-500 ease-linear"></motion.div>
       <div className="flex flex-col justify-center relative z-10 items-center gap-2 text-5xl font-bold">
         <div className="flex items-center gap-2">
           <img src={person} alt="admi" className="h-[7vh] w-auto" />

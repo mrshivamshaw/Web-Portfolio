@@ -9,8 +9,7 @@ import Contact from "./components/pages/Contact/Contact.jsx";
 
 function App() {
   return (
-    <div className="min-h-[100vh] max-w-[100vw] relative box-border overflow-x-hidden">
-      
+    <div className="container min-h-[100vh] max-w-[100vw] relative box-border overflow-x-hidden">
       <NavBar/>
       <section id="Home"><Home/></section>
       <section id="About"><About/></section>
