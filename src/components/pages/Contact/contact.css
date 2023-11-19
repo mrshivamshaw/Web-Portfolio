@@ -1,5 +1,40 @@
 #Contact{
     background-image: url(../../../Assests/svg.png);
-    background-size:contain;
+    background-size:cover;
     background-repeat: no-repeat;
+}
+
+input,textarea{
+    all: unset;
+}
+.triangle {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 100px 173.2px 100px;
+    border-color: transparent transparent #E6EFFF transparent;
+    transform: rotate(0deg);
+    animation: rotate 19s linear infinite;
+ }
+
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.shape{
+    animation: shape .2s linear infinite;
+}
+
+@keyframes shape {
+    from{
+        transform: translateX(1px)
+    }
+    to{
+        transform: translateX(-1px)
+    }
 }
