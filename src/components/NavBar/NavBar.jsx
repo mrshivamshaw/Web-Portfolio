@@ -19,7 +19,7 @@ const NavBar = () => {
       x:0,
       transition:{delay:i*0.06},
     }),
-    hidden:{opacity:0,x:110}
+    hidden:{opacity:0,x:290}
   }
   const [navActive, setNavtActive] = useState(false);
   const navHandler = () => {
@@ -50,9 +50,9 @@ const NavBar = () => {
           ))}
         </ul>
       </motion.div>
-      <div className=" lg:hidden md:hidden block p-3 rounded-full">
+      <div className=" lg:hidden md:hidden block p-3 ">
         {navActive ? (
-          <div className="flex flex-col justify-center items-centermt-[30vh] absolute top-[0vh] right-0">
+          <div className="flex flex-col justify-center items-center absolute top-[0vh] right-0">
             <div className="flex items-center justify-center  rounded-full">
               <img
                 onClick={navHandler}
@@ -67,12 +67,12 @@ const NavBar = () => {
                 // transition={{ duration: 0.5 }}
                 // animate={{ opacity: 1, scale: 1, x: 0 }}
                 initial="hidden" animate="visible" variants={variants}
-                className="flex flex-col justify-between shadow-2xl rounded-b-xl items-center mt-[7.01vh] gap-3 p-3 w-[35vw] h-[30vh] bg-white text-[.82em]"
+                className="flex flex-col justify-center bg-[#e6f0fa] items-center gap-16 shadow-2xl rounded-b-xl  mt-[7.01vh]  p-3 w-[100vw] h-[93vh] text-[.82em]"
               >
                 {section.map((item, index) => (
                   <motion.li
                     key={index}
-                    className=".item text-[#8a8585] hover:text-[#9bcdff] text-sm font-semibold hover:font-bold hover:border-b-[3px] hover:border-b-[#9bcdff] transition-all duration-300 "
+                    className=".item text-3xl text-[#8a8585] hover:text-[#9bcdff] font-semibold hover:font-bold hover:border-b-[3px] hover:border-b-[#9bcdff] transition-all duration-300 "
                     onClick={navHandler}
                     variants={variants}
                     custom={index}

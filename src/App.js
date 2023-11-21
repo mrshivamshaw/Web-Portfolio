@@ -6,10 +6,11 @@ import Skills from "./components/pages/Skills/Skills.jsx";
 import Education from "./components/pages/Education/Education.jsx";
 import Projects from "./components/pages/Project/Projects.jsx";
 import Contact from "./components/pages/Contact/Contact.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 
 function App() {
   return (
-    <div className="container h-auto max-w-[100vw] relative box-border overflow-x-hidden">
+    <div className="container min-h-screen max-w-[100vw] relative box-border overflow-x-hidden">
       <NavBar/>
       <section id="Home"><Home/></section>
       <section id="About"><About/></section>
@@ -17,6 +18,7 @@ function App() {
      <section id="Education"><Education/></section>
       <section id="Projects"><Projects/></section>
       <section id="Contact"><Contact/></section> 
+      <Footer/>
     </div>
   );
 }

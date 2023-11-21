@@ -71,7 +71,10 @@ const Home = () => {
               </span>
             </button>
           </a>
+          <div className="text-[#3882cd] ">
+            
           <Links />
+          </div>
         </motion.div>
         <motion.div 
          initial={{opacity:0,scale:0.3}}
