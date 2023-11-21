@@ -10,7 +10,7 @@ const About = () => {
   return (
     <div
     
-      className="overflow-x-hidden h-screen overflow-y-hidden py-20  w-full mx-auto flex flex-col justify-center items-center gap-[9vh]"
+      className="overflow-x-hidden h-auto py-20  w-full mx-auto flex flex-col justify-center items-center gap-[9vh]"
     >
       <motion.div initial={{opacity:0,x:100}}
       whileInView={{opacity:1,x:0}}
@@ -98,7 +98,7 @@ const About = () => {
         </div>
       </div>
       <a href={pic} download={pic}>
-      <button className="px-8 py-3 bg-[#4b97dd] rounded-full text-xl text-white font-semibold hover:font-bold hover:scale-95 shadow-xl hover:shadow-2xl transition-all duration-500">
+      <button className="px-8 py-3 bg-[#4b97dd] rounded-full text-xl font-semibold hover:font-bold hover:scale-90 shadow-xl hover:shadow-2xl transition-all duration-500">
         Resume <span><FaChevronCircleRight className="inline "/></span>
       </button>
       </a>
