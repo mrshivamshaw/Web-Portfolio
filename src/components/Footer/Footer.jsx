@@ -5,7 +5,7 @@ import Links from '../pages/Links/Links'
 
 const Footer = () => {
   return (
-    <div className='flex flex-col justify-center items-center w-screen h-auto bg-[#319cc9] text-white py-3 -mt-[10vh]'>
+    <div className='flex flex-col justify-center items-center w-screen h-auto bg-[#319cc9] text-white py-3 -mt-[10vh] overflow-x-hidden'>
         <div className='w-screen h-auto flex flex-wrap lg:justify-evenly xl:justify-evenly md:justify-start justify-start items-baseline overflow-y-hidden px-5 md:pl-5 lg:pl-0 xl:pl-0 gap-10 pb-3'>
             <div className='flex flex-col justify-start items-start w-[21rem] '>
                 <h1 className='text-3xl font-semibold mb-2 '>Shivam's Portfolio</h1>
