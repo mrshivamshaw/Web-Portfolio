@@ -67,7 +67,7 @@ const NavBar = () => {
                 // transition={{ duration: 0.5 }}
                 // animate={{ opacity: 1, scale: 1, x: 0 }}
                 initial="hidden" animate="visible" variants={variants}
-                className="flex flex-col justify-center bg-[#e6f0fa] items-center gap-16 shadow-2xl rounded-b-xl  mt-[7.01vh]  p-3 w-[100vw] h-[93vh] text-[.82em]"
+                className="flex flex-col justify-center bg-[#e6f0fa] items-center gap-12 shadow-2xl rounded-b-xl  mt-[7.01vh]  p-3 w-[100vw] h-[93vh] text-[.82em]"
               >
                 {section.map((item, index) => (
                   <motion.li

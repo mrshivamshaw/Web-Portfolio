@@ -31,7 +31,7 @@ const Footer = () => {
                     <span>+91-91425-74541</span>
                 </div>
                 <div className='flex justify-start text-white'>
-                    <Links/>
+                    <Links border = {`#fff`}/>
                 </div>
             </div>
         </div>

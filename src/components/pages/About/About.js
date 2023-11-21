@@ -4,17 +4,18 @@ import person from "../../../Assests/man.png";
 import Tilt from "react-vanilla-tilt";
 import { motion } from "framer-motion";
 import './about.css'
+import {FaChevronCircleRight} from 'react-icons/fa'
 
 const About = () => {
   return (
     <div
     
-      className="overflow-x-hidden h-auto py-20  w-full mx-auto flex flex-col justify-center items-center gap-[9vh]"
+      className="overflow-x-hidden h-screen overflow-y-hidden py-20  w-full mx-auto flex flex-col justify-center items-center gap-[9vh]"
     >
       <motion.div initial={{opacity:0,x:100}}
       whileInView={{opacity:1,x:0}}
       // transition={{duration:2}}
-       className="absolute -right-[55vh] w-[600px] h-[600px] rounded-full z-0 bg-[#FFD9D9] duration-500 ease-linear"></motion.div>
+       className="absolute -right-[55vh] w-[40vw] h-[75.5vh] rounded-full z-0 bg-[#FFD9D9] duration-500 ease-linear"></motion.div>
       <div className="flex flex-col justify-center relative z-10 items-center gap-2 text-5xl font-bold">
         <div className="flex items-center gap-2">
           <img src={person} alt="admi" className="h-[7vh] w-auto" />
@@ -97,8 +98,8 @@ const About = () => {
         </div>
       </div>
       <a href={pic} download={pic}>
-      <button className="px-8 py-3 bg-[#4b97dd] rounded-full text-xl font-semibold hover:font-bold hover:scale-90 shadow-xl hover:shadow-2xl transition-all duration-500">
-        Resume <span>&gt;</span>
+      <button className="px-8 py-3 bg-[#4b97dd] rounded-full text-xl text-white font-semibold hover:font-bold hover:scale-95 shadow-xl hover:shadow-2xl transition-all duration-500">
+        Resume <span><FaChevronCircleRight className="inline "/></span>
       </button>
       </a>
     </div>

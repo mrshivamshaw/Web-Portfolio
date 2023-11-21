@@ -30,7 +30,7 @@ const Skills = () => {
       initial={{opacity:0,x:-100}}
       whileInView={{opacity:1,x:0}}
       // transition={{duration:2}}
-       className="sideCircle absolute -left-[55vh] w-[600px] h-[600px] rounded-full z-0 bg-[#D9F0E0] transition-all duration-500 ease-linear"></motion.div>
+       className="sideCircle absolute -left-[55vh] w-[40vw] h-[75.5vh] rounded-full z-0 bg-[#D9F0E0] transition-all duration-500 ease-linear"></motion.div>
       <div className="flex flex-col items-center gap-1 z-30">
         <div className="flex items-center justify-center gap-2">
           <img src={skill} alt="skill" className=" h-[7vh] w-auto" />
@@ -44,7 +44,7 @@ const Skills = () => {
       </div>
       <div className="flex md:flex-row lg:flex-row flex-col justify-center lg:gap-20 gap-8 w-[85vw] relative z-10">
         <div className="grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 grid-cols-3 w-auto justify-center items-center py-6 gap-4">
-          <div className="animate flex flex-col mt-4 text-[1.4vh] font-semibold justify-center items-center py-2 px-6 h-[87px] w-[87px] rounded-full bg-[#d4e3ea6d] hover:scale-105 hover:shadow-2xl transition-all duration-300">
+          <div className="animate flex flex-col mt-4 text-[1.4vh] font-semibold justify-center items-center py-2 px-6 h-[11.2vh] w-[5.5vw] rounded-full bg-[#d4e3ea6d] hover:scale-105 hover:shadow-2xl transition-all duration-300">
             <img src={react} alt="react" />
             <div>ReactJs</div>
           </div>
