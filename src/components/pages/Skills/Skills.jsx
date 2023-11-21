@@ -24,7 +24,7 @@ const Skills = () => {
   return (
     <div
       id="Skill"
-      className="overflow-x-hidden h-[auto] py-20 w-[85vw] flex flex-col gap-6 mx-auto items-center"
+      className="overflow-x-hidden h-[auto] py-20 w-[100vw] flex flex-col gap-6 mx-auto items-center"
     >
       <motion.div 
       initial={{opacity:0,x:-100}}
@@ -42,7 +42,7 @@ const Skills = () => {
           <div id="moving-div" className=" w-[8px] h-full rounded-full "></div>
         </div>
       </div>
-      <div className="flex md:flex-row lg:flex-row flex-col justify-center lg:gap-20 gap-8 w-[85vw] relative z-10">
+      <div className="flex md:flex-row lg:flex-row flex-col justify-center lg:gap-20 gap-8 w-[100vw] md:w-[85vw] lg:w-[85vw] xl:w-[85vw] relative z-10">
         <div className="grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 grid-cols-3 lg:w-auto xl:w-auto md:w-auto w-screen justify-center items-center py-6 gap-4">
           <div className="animate flex flex-col mt-4 text-[1.4vh] font-semibold justify-center items-center py-2 px-6 h-[82px] w-[82px] md:h-[87px] md:w-[87px] lg:h-[87px] lg:w-[87px] xl:h-[87px] xl:w-[87px] rounded-full bg-[#d4e3ea6d] hover:scale-105 hover:shadow-2xl transition-all duration-300">
             <img src={react} alt="react" />
