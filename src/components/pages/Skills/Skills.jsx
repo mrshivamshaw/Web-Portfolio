@@ -42,69 +42,69 @@ const Skills = () => {
           <div id="moving-div" className=" w-[8px] h-full rounded-full "></div>
         </div>
       </div>
-      <div className="flex md:flex-row lg:flex-row flex-col justify-center lg:gap-20 gap-8 w-[100vw] md:w-[85vw] lg:w-[85vw] xl:w-[85vw] relative z-10">
+      <div className="flex md:flex-row lg:flex-row flex-col items-center justify-center lg:gap-20 gap-8 w-[100vw] md:w-[85vw] lg:w-[85vw] xl:w-[85vw] relative z-10">
         <div className="grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 grid-cols-3 lg:w-auto xl:w-auto md:w-auto w-screen justify-center place-content-center py-6 gap-4">
-          <div className="animate flex flex-col mt-4 text-[1.4vh] font-semibold justify-center items-center py-2 px-6 h-[82px] w-[82px] md:h-[87px] md:w-[87px] lg:h-[87px] lg:w-[87px] xl:h-[87px] xl:w-[87px] rounded-full bg-[#d4e3ea6d] hover:scale-105 hover:shadow-2xl transition-all duration-300">
+          <div className="animate flex mx-auto flex-col mt-4 text-[1.4vh] font-semibold justify-center items-center py-2 px-6 h-[82px] w-[82px] md:h-[87px] md:w-[87px] lg:h-[87px] lg:w-[87px] xl:h-[87px] xl:w-[87px] rounded-full bg-[#d4e3ea6d] hover:scale-105 hover:shadow-2xl transition-all duration-300">
             <img src={react} alt="react" />
             <div>ReactJs</div>
           </div>
-          <div className="animate flex flex-col mt-4 text-[1.4vh] font-semibold justify-center items-center py-2 px-6 h-[87px] w-[87px] rounded-full bg-[#d4e3ea6d] hover:scale-105 hover:shadow-2xl transition-all duration-300">
+          <div className="animate flex mx-auto  flex-col mt-4 text-[1.4vh] font-semibold justify-center items-center py-2 px-6 h-[87px] w-[87px] rounded-full bg-[#d4e3ea6d] hover:scale-105 hover:shadow-2xl transition-all duration-300">
             <img src={express} alt="express" />
             <div>NodeJs</div>
           </div>
-          <div className="animate flex flex-col mt-4 text-[1.4vh] font-semibold justify-center items-center py-2 px-6 h-[87px] w-[87px] rounded-full bg-[#d4e3ea6d] hover:scale-105 hover:shadow-2xl transition-all duration-300">
+          <div className="animate flex mx-auto  flex-col mt-4 text-[1.4vh] font-semibold justify-center items-center py-2 px-6 h-[87px] w-[87px] rounded-full bg-[#d4e3ea6d] hover:scale-105 hover:shadow-2xl transition-all duration-300">
             <img src={node} alt="node" />
             <div>ExpressJs</div>
           </div>
-          <div className="animate flex flex-col mt-4 text-[1.4vh] font-semibold justify-center items-center py-2 px-6 h-[87px] w-[87px] rounded-full bg-[#d4e3ea6d] hover:scale-105 hover:shadow-2xl transition-all duration-300">
+          <div className="animate flex mx-auto  flex-col mt-4 text-[1.4vh] font-semibold justify-center items-center py-2 px-6 h-[87px] w-[87px] rounded-full bg-[#d4e3ea6d] hover:scale-105 hover:shadow-2xl transition-all duration-300">
             <img src={redux} alt="Redux" />
             <div>Redux</div>
           </div>
-          <div className="animate flex flex-col mt-4 text-[1.4vh] font-semibold justify-center items-center py-2 px-6 h-[87px] w-[87px] rounded-full bg-[#d4e3ea6d] hover:scale-105 hover:shadow-2xl transition-all duration-300">
+          <div className="animate flex mx-auto  flex-col mt-4 text-[1.4vh] font-semibold justify-center items-center py-2 px-6 h-[87px] w-[87px] rounded-full bg-[#d4e3ea6d] hover:scale-105 hover:shadow-2xl transition-all duration-300">
             <img src={DSA} alt="DSA" />
             <div>DSA</div>
           </div>
-          <div className="animate flex flex-col mt-4 text-[1.4vh] font-semibold justify-center items-center py-2 px-6 h-[87px] w-[87px] rounded-full bg-[#d4e3ea6d] hover:scale-105 hover:shadow-2xl transition-all duration-300">
+          <div className="animate flex mx-auto  flex-col mt-4 text-[1.4vh] font-semibold justify-center items-center py-2 px-6 h-[87px] w-[87px] rounded-full bg-[#d4e3ea6d] hover:scale-105 hover:shadow-2xl transition-all duration-300">
             <img src={Mongo} alt="Mongo" />
             <div>MongoDb</div>
           </div>
-          <div className="animate flex flex-col mt-4 text-[1.4vh] font-semibold justify-center items-center py-2 px-6 h-[5.5rem] w-[5.5rem] rounded-full bg-[#d4e3ea6d] hover:scale-105 hover:shadow-2xl transition-all duration-300">
+          <div className="animate flex mx-auto  flex-col mt-4 text-[1.4vh] font-semibold justify-center items-center py-2 px-6 h-[5.5rem] w-[5.5rem] rounded-full bg-[#d4e3ea6d] hover:scale-105 hover:shadow-2xl transition-all duration-300">
             <img src={html} alt="html" />
             <div>HTML</div>
           </div>
-          <div className="animate flex flex-col mt-4 text-[1.4vh] font-semibold justify-center items-center py-2 px-6 h-[87px] w-[87px] rounded-full bg-[#d4e3ea6d] hover:scale-105 hover:shadow-2xl transition-all duration-300">
+          <div className="animate flex mx-auto  flex-col mt-4 text-[1.4vh] font-semibold justify-center items-center py-2 px-6 h-[87px] w-[87px] rounded-full bg-[#d4e3ea6d] hover:scale-105 hover:shadow-2xl transition-all duration-300">
             <img src={css} alt="css3" />
             <div>CSS3</div>
           </div>
-          <div className="animate flex flex-col mt-4 text-[1.4vh] font-semibold justify-center items-center py-2 px-6 h-[87px] w-[87px] rounded-full bg-[#d4e3ea6d] hover:scale-105 hover:shadow-2xl transition-all duration-300">
+          <div className="animate flex mx-auto  flex-col mt-4 text-[1.4vh] font-semibold justify-center items-center py-2 px-6 h-[87px] w-[87px] rounded-full bg-[#d4e3ea6d] hover:scale-105 hover:shadow-2xl transition-all duration-300">
             <img src={python} alt="Python" />
             <div>Python</div>
           </div>
-          <div className="animate flex flex-col mt-4 text-[1.4vh] font-semibold justify-center items-center py-2 px-6 h-[87px] w-[87px] rounded-full bg-[#d4e3ea6d] hover:scale-105 hover:shadow-2xl transition-all duration-300">
+          <div className="animate flex mx-auto  flex-col mt-4 text-[1.4vh] font-semibold justify-center items-center py-2 px-6 h-[87px] w-[87px] rounded-full bg-[#d4e3ea6d] hover:scale-105 hover:shadow-2xl transition-all duration-300">
             <img src={js} alt="js" />
             <div>JavaScript</div>
           </div>
-          <div className="animate flex flex-col mt-4 text-[1.4vh] font-semibold justify-center items-center py-2 px-6 h-[87px] w-[87px] rounded-full bg-[#d4e3ea6d] hover:scale-105 hover:shadow-2xl transition-all duration-300">
+          <div className="animate flex mx-auto  flex-col mt-4 text-[1.4vh] font-semibold justify-center items-center py-2 px-6 h-[87px] w-[87px] rounded-full bg-[#d4e3ea6d] hover:scale-105 hover:shadow-2xl transition-all duration-300">
             <img src={cpp} alt="cpp" />
             <div>CPP</div>
           </div>
-          <div className="animate flex flex-col mt-4 text-[1.4vh] font-semibold justify-center items-center py-2 px-6 h-[87px] w-[87px]  rounded-full bg-[#d4e3ea6d] hover:scale-105 hover:shadow-2xl transition-all duration-300">
+          <div className="animate flex mx-auto flex-col mt-4 text-[1.4vh] font-semibold justify-center items-center py-2 px-6 h-[87px] w-[87px]  rounded-full bg-[#d4e3ea6d] hover:scale-105 hover:shadow-2xl transition-all duration-300">
             <img src={c} alt="c" />
             <div>C</div>
           </div>
-          <div className="animate flex flex-col mt-4 text-[1.4vh] font-semibold justify-center items-center py-2 px-6 h-[87px] w-[87px] rounded-full bg-[#d4e3ea6d] hover:scale-105 hover:shadow-2xl transition-all duration-300">
+          <div className="animate flex mx-auto flex-col mt-4 text-[1.4vh] font-semibold justify-center items-center py-2 px-6 h-[87px] w-[87px] rounded-full bg-[#d4e3ea6d] hover:scale-105 hover:shadow-2xl transition-all duration-300">
             <img src={net} alt="net" />
             <div>Netlify</div>
           </div>
-          <div className="animate flex flex-col mt-4 text-[1.4vh] font-semibold justify-center items-center py-2 px-6 h-[87px] w-[87px] rounded-full bg-[#d4e3ea6d] hover:scale-105 hover:shadow-2xl transition-all duration-300">
+          <div className="animate flex mx-auto  flex-col mt-4 text-[1.4vh] font-semibold justify-center items-center py-2 px-6 h-[87px] w-[87px] rounded-full bg-[#d4e3ea6d] hover:scale-105 hover:shadow-2xl transition-all duration-300">
             <img src={git} alt="git" />
             <div>Git</div>
           </div>
-          <div className="animate flex flex-col mt-4 text-[1.4vh] font-semibold justify-center items-center py-2 px-6 h-[87px] w-[87px]  rounded-full bg-[#d4e3ea6d] hover:scale-105 hover:shadow-2xl transition-all duration-300">
+          <div className="animate flex mx-auto flex-col mt-4 text-[1.4vh] font-semibold justify-center items-center py-2 px-6 h-[87px] w-[87px]  rounded-full bg-[#d4e3ea6d] hover:scale-105 hover:shadow-2xl transition-all duration-300">
             <img src={github} alt="github" />
             <div>GitHub</div>
           </div>
-          <div className="animate flex flex-col mt-4 text-[1.4vh] font-semibold justify-center items-center py-2 px-6 h-[87px] w-[87px] rounded-full bg-[#d4e3ea6d] hover:scale-105 hover:shadow-2xl transition-all duration-300">
+          <div className="animate flex mx-auto flex-col mt-4 text-[1.4vh] font-semibold justify-center items-center py-2 px-6 h-[87px] w-[87px] rounded-full bg-[#d4e3ea6d] hover:scale-105 hover:shadow-2xl transition-all duration-300">
             <img src={team} alt="team" />
             <div>Team work</div>
           </div>
@@ -115,20 +115,20 @@ const Skills = () => {
           whileInView={{opacity:1,x:0}}
           transition={{duration:1.2}}
           className="flex gap-4 items-baseline">
-            <div>2022</div>
+            <div>2023</div>
             <div>
-              <p>Lorem ipsum dolor sit amet consectetur</p>
-              <p>Lorem, ipsum.</p>
+              <p>Selected as a Compititive Progarmming Facilator</p>
+              <p>GDSC AEC</p>
             </div>
           </motion.div>
           <motion.div
           initial={{opacity:0,x:200}}
           whileInView={{opacity:1,x:0}}
           transition={{duration:1.9}} className="flex gap-4 items-baseline">
-            <div>2022</div>
+            <div>2023</div>
             <div>
-              <p>Lorem ipsum dolor sit amet consectetur</p>
-              <p>Lorem, ipsum.</p>
+              <p>Collaborated with GDSC AEC team to develop a website for our team.</p>
+              <p>GDSC AEC</p>
             </div>
           </motion.div>
           <motion.div
