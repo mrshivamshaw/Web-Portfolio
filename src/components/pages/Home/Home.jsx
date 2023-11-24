@@ -65,7 +65,7 @@ const Home = () => {
           </div>
           <a href="">
             <button className="flex items-center bg-[#4b97dd] px-6 py-2 text-sm  rounded-3xl cursor-pointer font-semibold hover:font-bold hover:scale-95 shadow-xl hover:shadow-2xl transition-all duration-500">
-              <span><a href="https://drive.google.com/drive/u/0/folders/1tbq80283zFXK_w2z1cj_c6yXrukAaHrf">Visit all links</a>&nbsp;</span>{" "}
+              <span><a href="https://drive.google.com/file/d/1yRtEVB0iWZ90joIf8oiVaGaeoXSrFthj/view?usp=drive_link">Visit all links</a>&nbsp;</span>{" "}
               <span>
                 <AiOutlineArrowUp />
               </span>
