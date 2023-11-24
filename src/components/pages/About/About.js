@@ -99,7 +99,7 @@ const About = () => {
       </div>
       <a href={pic} download={pic}>
       <button className="px-8 py-3 bg-[#4b97dd] rounded-full text-xl font-semibold hover:font-bold hover:scale-90 shadow-xl hover:shadow-2xl transition-all duration-500">
-        Resume <span><FaChevronCircleRight className="inline "/></span>
+        <a href="https://drive.google.com/drive/u/0/folders/1tbq80283zFXK_w2z1cj_c6yXrukAaHrf">Resume</a> <span><FaChevronCircleRight className="inline "/></span>
       </button>
       </a>
     </div>
