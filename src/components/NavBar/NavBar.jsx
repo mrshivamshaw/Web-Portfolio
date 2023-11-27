@@ -3,6 +3,7 @@ import Logo from "../../Assests/e81f2a50-f965-4a1b-b4ce-19d1c8256623.png";
 import "./navBar.css";
 import bar from "../../Assests/bars-right-svgrepo-com.svg";
 import times from "../../Assests/times-svgrepo-com.svg";
+import { FaTimes } from "react-icons/fa";
 import { motion, stagger } from "framer-motion";
 import { Link} from 'react-scroll';
 
@@ -54,13 +55,8 @@ const NavBar = () => {
         {navActive ? (
           <div className="flex flex-col justify-center items-center absolute top-[0vh] right-0">
             <div className="flex items-center justify-center  rounded-full">
-              <img
-                onClick={navHandler}
-                src={times}
-                alt="bar"
-                className="lg:hidden md:hidden block h-[7vh] absolute right-[7vw] top-[.1vh]"
-              />
-            </div>
+              <FaTimes className="lg:hidden md:hidden block h-[7vh] absolute right-[10vw] top-[.1vh]" onClick={navHandler}/>
+              </div>
             {navActive && (
               <motion.ul
                 // initial={{ opacity: 0,sacle:0, x: 50 }}
