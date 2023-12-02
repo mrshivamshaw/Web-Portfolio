@@ -35,7 +35,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-        <div className='w-screen flex justify-center items-center text-black text-2xl font-bold px-8'>
+        <div className='w-screen flex justify-center items-center text-black text-2xl font-bold psx-8'>
             <p className=' border-t-2 w-full text-center py-3 '>Made by SHIVAM with ❤️ Love</p>
         </div>
     </div>

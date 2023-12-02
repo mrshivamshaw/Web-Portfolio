@@ -28,7 +28,7 @@ const Education = () => {
     <div id="Education" className="overflow-x-hidden h-auto mb-20  relative z-30 gap-6 flex flex-col justify-center items-center px-6">
       <motion.div 
       initial={{opacity:0,x:130}}
-      whileInView={{opacity:1,x:0}}
+      whileInView={{opacity:1,x:0,transition:{delay:.2,duration:1}}}
       // transition={{duration:2}}
       className="sideCircle absolute -right-[55vh] top-[8vh] w-[40vw] h-[75.5vh] rounded-full z-0 bg-[#FFD9D9] duration-500 ease-linear"></motion.div>
 
