@@ -20,7 +20,7 @@ const NavBar = () => {
       x:0,
       transition:{delay:i*0.06},
     }),
-    hidden:{opacity:0,x:290}
+    hidden:{opacity:0,x:90}
   }
   const [navActive, setNavtActive] = useState(false);
   const navHandler = () => {
@@ -58,12 +58,14 @@ const NavBar = () => {
               <FaTimes className="lg:hidden md:hidden block h-[7vh] absolute right-[10vw] top-[.1vh]" onClick={navHandler}/>
               </div>
             {navActive && (
+              <div className="w-[100vw] flex">
+
               <motion.ul
                 // initial={{ opacity: 0,sacle:0, x: 50 }}
                 // transition={{ duration: 0.5 }}
                 // animate={{ opacity: 1, scale: 1, x: 0 }}
                 initial="hidden" animate="visible" variants={variants}
-                className="flex flex-col justify-center bg-[#e6f0fa] items-center gap-12 shadow-2xl rounded-b-xl  mt-[7.01vh]  p-3 w-[100vw] h-[93vh] text-[.82em]"
+                className="w-[80vw] flex flex-col justify-center bg-[#dee3e8] items-center gap-12 shadow-2xl rounded-b-xl  mt-[7.01vh]  p-3  h-[93vh] text-[.82em]"
               >
                 {section.map((item, index) => (
                   <motion.li
@@ -77,6 +79,10 @@ const NavBar = () => {
                   </motion.li>
                 ))}
               </motion.ul>
+              <div className="w-[20vw] bg-black/20">
+
+              </div>
+              </div>
             )}
           </div>
         ) : (
