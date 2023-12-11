@@ -11,7 +11,7 @@ const Home = () => {
     <>
       <div
         
-        className="overflow-x-hidden h-screen overflow-y-hidden w-full mx-auto flex lg:flex-row flex-col justify-center items-center py-[20vh] md:py-[10vh] lg:py-0 xl:py-0 gap-8"
+        className="overflow-x-hidden h-auto md:h-auto lg:h-screen xl:h-screen overflow-y-hidden w-full mx-auto flex lg:flex-row flex-col justify-center items-center py-[10vh] gap-8"
       >
         <motion.div 
           initial={{opacity:0,y:-100}}

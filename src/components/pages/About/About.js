@@ -104,8 +104,8 @@ const About = () => {
         </div>
       </div>
       <a
-        href="https://drive.google.com/file/d/1yRtEVB0iWZ90joIf8oiVaGaeoXSrFthj/view?usp=drive_link"
-        download="https://drive.google.com/file/d/1yRtEVB0iWZ90joIf8oiVaGaeoXSrFthj/view?usp=drive_link"
+        href="https://drive.google.com/file/d/1ZyUSsVxuCsr9ET_PIaA8Xxbre_yetmte/view?usp=sharing"
+        download="https://drive.google.com/file/d/1ZyUSsVxuCsr9ET_PIaA8Xxbre_yetmte/view?usp=sharing"
       >
         <motion.button initial={{opacity:0.5,y:-30}} whileInView={{opacity:1,y:0,transition:{duration:1,delay:1}}} className="px-8 py-3 bg-[#4b97dd] rounded-full text-xl font-semibold hover:font-bold hover:scale-90 shadow-xl hover:shadow-2xl transition-all duration-500">
           Resume{" "}
