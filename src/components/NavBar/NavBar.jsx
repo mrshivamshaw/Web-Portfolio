@@ -58,28 +58,27 @@ const NavBar = () => {
               <FaTimes className="lg:hidden md:hidden block h-[7vh] absolute right-[10vw] top-[.1vh]" onClick={navHandler}/>
               </div>
             {navActive && (
-              <div className="w-[100vw] flex">
+              <div className="w-[100vw] flex h-[90vh] mt-[7vh] relative">
 
               <motion.ul
                 // initial={{ opacity: 0,sacle:0, x: 50 }}
                 // transition={{ duration: 0.5 }}
                 // animate={{ opacity: 1, scale: 1, x: 0 }}
                 initial="hidden" animate="visible" variants={variants}
-                className="w-[80vw] flex flex-col justify-center bg-[#dee3e8] items-center gap-12 shadow-2xl rounded-b-xl  mt-[7.01vh]  p-3  h-[93vh] text-[.82em]"
+                className="w-[80vw] flex flex-col justify-start bg-[#dee3e8] items-start px-4 shadow-2xl rounded-b-xl  h-[100vh] text-[.82em]"
               >
                 {section.map((item, index) => (
                   <motion.li
                     key={index}
-                    className=".item text-3xl text-[#8a8585] hover:text-[#9bcdff] font-semibold hover:font-bold hover:border-b-[3px] hover:border-b-[#9bcdff] transition-all duration-300 "
+                    className=" .item text-xl w-full text-[#000] py-6 hover:text-[#9bcdff] font-medium hover:font-bold border-b-[.5px] border-b-[#000] transition-all duration-300"
                     onClick={navHandler}
-                    variants={variants}
                     custom={index}
                   >
                     <a href={`#${item}`}>{item}</a>
                   </motion.li>
                 ))}
               </motion.ul>
-              <div className="w-[20vw] bg-black/20">
+              <div className="w-[20vw] bg-black/20  h-[100vh]">
 
               </div>
               </div>
