@@ -64,7 +64,7 @@ const Contact = () => {
           className=" xl:px-8 lg:px-8 md:px-4 px-4 py-4 border-2 xl:w-[50%] lg:w-[50%] md:w-full w-full border-black/70 bg-[#242323] shadow-2xl shadow-black rounded-lg ">
           <form className=" flex flex-col gap-3">
             <div className="text-3xl font-semibold pb-8 text-white">GET FREE QOUTE NOW!</div>
-            <div className="flex justify-start gap-2 items-center border-1  border-black rounded-lg px-4 bg-[#f1efef]">
+            <div className="flex justify-start gap-2 items-center border-1 w-full border-black rounded-lg px-4 bg-[#f1efef]">
               <IoPersonSharp className="text-black/40" />
               <input
                 type="text"
@@ -72,7 +72,7 @@ const Contact = () => {
                 placeholder="First name"
               />
             </div>
-            <div className="flex justify-start gap-2 items-center border-1  border-black rounded-lg px-4 bg-[#f1efef]">
+            <div className="flex justify-start gap-2 items-center border-1 w-full border-black rounded-lg px-4 bg-[#f1efef]">
               <PiPhoneCallBold className="text-black/40" />
               <input
                 type="text"
@@ -80,7 +80,7 @@ const Contact = () => {
                 placeholder="Phone"
               />
             </div>
-            <div className="flex justify-start gap-2 items-center border-1  border-black rounded-lg px-4 bg-[#f1efef]">
+            <div className="flex justify-start gap-2 items-center border-1 w-full border-black rounded-lg px-4 bg-[#f1efef]">
               <FiMail className="text-black/40" />
               <input
                 type="text"
