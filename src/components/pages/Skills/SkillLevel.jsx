@@ -65,7 +65,7 @@ const skills = [
 
   const SkillLevel = () => {
     return (
-      <div className='xl:w-[70vw] lg:w-[70vw] md:w-[95vw] w-[95vw] mx-auto border-2 border-white/60 rounded-xl flex flex-wrap justify-center items-center gap-x-9 gap-y-4 py-8'>
+      <div className='xl:w-[70vw] lg:w-[70vw] md:w-[95vw] w-[95vw] mx-auto border-2 bg-[#242323] shadow-2xl shadow-black border-white/60 rounded-xl flex flex-wrap justify-center items-center gap-x-9 gap-y-4 py-8'>
         {skills.map((item, index) => (
           <div key={index} className='xl:w-[400px] lg:w-[400px] md:w-[300px] w-[300px] flex flex-col gap-1'>
             <div className='flex items-center justify-start gap-2'>
