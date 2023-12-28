@@ -3,78 +3,57 @@ import student from '../../../Assests/teacher-svgrepo-com.svg'
 import Aec from '../../../Assests/aec.png'
 import jkrr from '../../../Assests/Govt-High-School-No.3-Abbottabad-1.png'
 import svs from '../../../Assests/svs.png'
-import { animate,stagger ,motion} from "framer-motion";
+import {motion} from "framer-motion";
 
-const containerVariants= {
-  whileInView: {
-    transition: {
-      staggerChildren: 0.6, // Adjust the delay between each child element
-    },
-  },
-};
-const childVariants ={
-  initial: {opacity: 0,x: -80,},
- 
-  whileInView: {
-    // Define the animation properties for "whileInView" state
-    opacity: 1,
-    x: 0,
-    transition: { duration: 1 }, // Adjust the duration as needed
-  },
-};
 const Education = () => {
   
   return (
-    <div id="Education" className="overflow-x-hidden h-auto mb-20  relative z-30 gap-6 flex flex-col justify-center items-center px-6">
+    <div id="Education" className="mainBg border-b-2 border-white/20 py-10 overflow-x-hidden h-auto mb-20  relative z-30 gap-6 flex flex-col justify-center items-center px-6">
       <motion.div 
-      initial={{opacity:0,x:130}}
-      whileInView={{opacity:1,x:0,transition:{delay:.2,duration:1}}}
-      // transition={{duration:2}}
-      className="sideCircle absolute -right-[55vh] top-[8vh] w-[40vw] h-[75.5vh] rounded-full z-0 bg-[#FFD9D9] duration-500 ease-linear"></motion.div>
+      initial={{ opacity: 0, x: 100 }}
+      whileInView={{
+        opacity: 1,
+        x: 0,
+        transition: { delay: 0.2, duration: 1 },
+      }}
+      className="sideCircle absolute -right-[55vh] top-[8vh] w-[40vw] h-[75.5vh] rounded-full z-30 bg-[#ff014f] duration-500 ease-linear"></motion.div>
 
       <div className="z-30 flex flex-col justify-center items-center gap-2 text-5xl font-bold">
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 heading rounded-lg">
           <img src={student} alt="admi" className="h-[7vh] w-auto" />
-          <h1 className=" lg:text-[7vh] md:text-[7vh] text-3xl font-bold tracking-wide mb-2">
-          My <span className="text-[#68a9e4]">Education</span>
+          <h1 className=" lg:text-[7vh] text-[#fff] md:text-[7vh] text-3xl font-bold tracking-wide mb-2">
+          My <span className="text-[#fff]">Education</span>
         </h1>
         </div>
-        <div className="w-[110%] h-[4px] bg-[#aacded] rounded-2xl">
-          <div id="moving-div" className=" w-[8px] h-full rounded-full "></div>
-        </div>
       </div>
-      <h1 className="-mt-2 z-30 text-[2vh] font-semibold text-[#7b7777]">"Education is the passport to the future, for tomorrow belongs to those who prepare for it today." - Malcolm X</h1>
-      <motion.div
-      variants={containerVariants}
-      initial="initial"
-      animate="animate"
-      whileInView="whileInView"
-      className="flex flex-col gap-7 relative z-30">
-        <motion.div variants={childVariants} className="flex flex-col lg:flex-row md:flex-row gap-5" style={{backgroundColor: "#fff",boxShadow: "0 0 10px rgba(0, 0, 0, 0.2)", }}>
-          <img src={Aec} alt="college"  className="h-[20vh] w-full lg:w-[22vw] md:w-[22vw]"/>
+      <h1 className="text-center xl:text-6xl lg:text-6xl md:text-6xl text-4xl text-white font-semibold -mt-3">My History of <span className="text-gradient text-center">Success</span>.</h1>
+      <div
+      className="flex flex-col gap-7 relative z-30 xl:w-auto lg:w-auto md:w-full w-full">
+        <motion.div initial={{x:-200}} whileInView={{x:0,transition:{duration:.5}}}  className="flex flex-col lg:flex-row md:flex-row gap-5 bg-[#242323] shadow-2xl shadow-black" >
+          <img src={Aec} alt="college"  className="h-[25vh] w-full lg:w-[22vw] md:w-[22vw]"/>
+          <div className="pr-10 p-3 flex flex-col justify-evenly bg-[#242323]">
+            <h1 className="lg:text-[4vh] md:text-[4vh] text-[2.4vh] font-bold text-white">Bachelor of Enginnering in Computer Science</h1>
+            <h3 className="text-[2vh] font-semibold text-[#ff014f]">Asansol Engineering college (AEC)</h3>
+            <h2 className="text-[3vh] font-semibold text-white">2022 - 2026 | Pursuing</h2>
+          </div>
+        </motion.div>
+        <motion.div initial={{x:200}} whileInView={{x:0,transition:{duration:.5}}}  className="flex flex-col  lg:flex-row md:flex-row gap-5 z-10 bg-[#242323] shadow-2xl shadow-black" >
+          <img src={jkrr} alt="college"  className="h-[25vh] w-full lg:w-[22vw] md:w-[22vw]"/>
           <div className="pr-10 p-3 flex flex-col justify-evenly">
-            <h1 className="lg:text-[4vh] md:text-[4vh] text-[2.4vh] font-bold">Bachelor of Enginnering in Computer Science</h1>
-            <h3 className="text-[2vh] font-semibold text-[#70ade6]">Asansol Engineering college (AEC)</h3>
-            <h2 className="text-[3vh] font-semibold text-green-500">2022 - 2026 | Pursuing</h2>
+            <h1 className="lg:text-[4vh] md:text-[4vh] text-[2.4vh] font-bold text-white">High School | Science</h1>
+            <h3 className="text-[2vh] font-semibold text-[#ff014f]">J.K.R.R Hindi +2 High school</h3>
+            <h2 className="text-[3vh] font-semibold text-white">2020 - 2022 | Completed</h2>
           </div>
         </motion.div>
-        <motion.div variants={childVariants} className="flex flex-col lg:flex-row md:flex-row gap-5" style={{backgroundColor: "#fff",boxShadow: "0 0 10px rgba(0, 0, 0, 0.2)", }}>
-          <img src={jkrr} alt="college"  className="h-[20vh] w-full lg:w-[22vw] md:w-[22vw]"/>
-          <div variants={childVariants} className="pr-10 p-3 flex flex-col justify-evenly">
-            <h1 className="lg:text-[4vh] md:text-[4vh] text-[2.4vh] font-bold">High School | Science</h1>
-            <h3 className="text-[2vh] font-semibold text-[#70ade6]">J.K.R.R Hindi +2 High school</h3>
-            <h2 className="text-[3vh] font-semibold text-green-500">2020 - 2022 | Completed</h2>
-          </div>
-        </motion.div>
-        <motion.div variants={childVariants} className="flex flex-col lg:flex-row md:flex-row gap-5" style={{backgroundColor: "#fff",boxShadow: "0 0 10px rgba(0, 0, 0, 0.2)", }}>
-          <img src={svs} alt="college"  className="h-[20vh] w-full lg:w-[22vw] md:w-[22vw]"/>
+        <motion.div initial={{x:-200}} whileInView={{x:0,transition:{duration:.5}}}  className="flex flex-col lg:flex-row md:flex-row gap-5 bg-[#242323] shadow-2xl shadow-black" >
+          <img src={svs} alt="college"  className="h-[25vh] w-full lg:w-[22vw] md:w-[22vw]"/>
           <div className="pr-10 p-3 flex flex-col justify-evenly">
-            <h1 className="lg:text-[4vh] md:text-[4vh] text-[2.4vh] font-bold">School</h1>
-            <h3 className="text-[2vh] font-semibold text-[#70ade6]">Swami Vivekananda School</h3>
-            <h2 className="text-[3vh] font-semibold text-green-500">2010 - 2020 | Completed</h2>
+            <h1 className="lg:text-[4vh] md:text-[4vh] text-[2.4vh] font-bold text-white">School</h1>
+            <h3 className="text-[2vh] font-semibold text-[#ff014f]">Swami Vivekananda School</h3>
+            <h2 className="text-[3vh] font-semibold text-white">2010 - 2020 | Completed</h2>
           </div>
         </motion.div>
-      </motion.div>
+      </div>
     </div>
   );
 };

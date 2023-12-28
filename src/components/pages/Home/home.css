@@ -1,5 +1,10 @@
-#Home{
-    background-image: url(../../../Assests/Animated\ Shape.svg);
+.home{
+    background-image: url(../../../Assests/landingpage-1.jpg);
     background-repeat: no-repeat;
     background-size:cover;
 }
+/* #Home{
+    background-image: url(../../../Assests/background\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+} */

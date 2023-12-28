@@ -1,52 +1,40 @@
 import Typewriter from "typewriter-effect";
-import pic from "../../../Assests/pic.jpeg";
-import { AiOutlineArrowUp } from "react-icons/ai";
+import pic from "../../../Assests/IMG_20231224_094829_777-removebg-preview.png";
 import Links from "../Links/Links";
 import "./home.css";
 import Tilt from "react-vanilla-tilt";
-import {motion, spring,} from 'framer-motion'
+import { motion, spring } from "framer-motion";
+import { FiPhoneCall } from "react-icons/fi";
 
 const Home = () => {
   return (
-    <>
-      <div
+    <div className="mainBg w-full h-auto pb-16 xl:pt-28 lg:pt-28 md:pt-16 pt-16 relative z-10 mainBg border-b-2 border-white/20 shadow-xl ">
+      <div className="home overflow-x-hidden h-auto md:h-auto xl:mt-0 lg:mt-0 md:mt-8 mt-2 lg:h-[80vh] xl:h-[80vh] border-2 py-5 border-white/20 shadow-2xl shadow-black rounded-lg overflow-y-hidden w-[95%] mx-auto flex lg:flex-row flex-col justify-between items-center xl:gap-16 lg:gap-16 md:gap-16 gap-0 xl:px-10 lg:px-10 md:px-5 px-5">
+        <motion.div
         
-        className="overflow-x-hidden h-auto md:h-auto lg:h-screen xl:h-screen overflow-y-hidden w-full mx-auto flex lg:flex-row flex-col justify-center items-center py-[10vh] gap-8"
-      >
-        <motion.div 
-          initial={{opacity:0,y:-100}}
-          whileInView={{opacity:1,y:0}}
-          transition={{duration:2}}
-          className="w-auto flex items-start flex-col gap-4 px-8">
-          <div className="flex flex-col items-center">
-            <motion.h1
-              // initial={{opacity:0,x:-30}}
-              // transition={{duration:1.5,type:spring, stiffness:100}}
+          className="w-auto flex xl:items-start lg:items-start md:items-center items-center flex-col xl:gap-6 lg:gap-6 md:gap-4 gap-4"
+        >
+          <motion.div
+            initial={{opacity:0,y:-40}}
+            whileInView={{opacity:1,y:0}}
+            transition = {{duration:.4}} 
+            className="flex flex-col items-center">
+            <motion.div 
               
-              // animate={{opacity:1,x:0}}
-              // whileInView={{opacity:1}}
-             className="text-5xl text-[#294f7a] font-bold mb-2">
-              Hi There,
-            </motion.h1>
-            <motion.div
-              // initial={{opacity:0,x:-30}}
-              // transition={{duration:1}}
-              // animate={{opacity:1,x:0}}
-              // whileInView={{opacity:1}} 
-              className="w-[110%] h-[4px] bg-[#aacded] rounded-2xl">
-              <div
-                id="moving-div"
-                className=" w-[8px] h-full rounded-full "
-              ></div>
+              className="xl:text-5xl lg:text-5xl md:text-xl text-xl text-[#fff] font-bold mb-2 heading rounded-lg" >
+              WELCOME TO MY WORLD
             </motion.div>
-          </div>
+          </motion.div>
 
-          <h1 className="lg:text-6xl md:text-6xl text-[4.7vh] font-bold">
-            I'm Shivam <span className="text-[#68a9e4]">Shaw</span>
-          </h1>
-          <div className="lg:text-2xl md:text-2xl text-[2vh]  font-bold flex">
-            <h1>I'm into&nbsp;</h1>
-            <span className=" text-[#68a9e4] flex">
+          <motion.h1 
+          initial={{opacity:0,y:-40}}
+          whileInView={{opacity:1,y:0}}
+          transition = {{duration:.4}} className="xl:text-7xl lg:text-7xl md:text-6xl text-6xl text-center font-bold text-[#fff]">
+            Hello I'm <span className="text-gradient">Shivam</span>
+          </motion.h1>
+          <div className="xl:text-3xl lg:text-3xl md:text-2xl text-[1.1rem]  font-bold flex">
+            <h1 className="text-[#fff]">I'm into&nbsp;</h1>
+            <span className=" text-gradient flex">
               &lt;
               <Typewriter
                 options={{
@@ -63,36 +51,28 @@ const Home = () => {
               &gt;
             </span>
           </div>
-          <a href="">
-            <button className="flex items-center bg-[#4b97dd] px-6 py-2 text-sm  rounded-3xl cursor-pointer font-semibold hover:font-bold hover:scale-95 shadow-xl hover:shadow-2xl transition-all duration-500">
-              <span><a href="https://drive.google.com/file/d/1yRtEVB0iWZ90joIf8oiVaGaeoXSrFthj/view?usp=drive_link">Visit all links</a>&nbsp;</span>{" "}
-              <span>
-                <AiOutlineArrowUp />
-              </span>
-            </button>
-          </a>
-          <div className="text-[#3882cd] ">
-            
-          <Links border = {`#3882cd`}/>
+          <p className="text-white/70 xl:text-2xl lg:text-2xl md:text-lg text-lg font-normal text-center">I am Gifted for experience with Better Service & Faster. I was able to help <br /> the client and successfully created with an identity.</p>
+          <div className="text-[#ff014f] flex xl:flow-row lg:flex-row md:flex-col flex-col items-start justify-center gap-9">
+            <Links />
+            <div className="flex justify-center items-center gap-2 w-full">
+              <div className='p-2 rounded-md border-[1px] border-black/20 bg-white/10 hover:bg-black/40 '><FiPhoneCall className=' h-[25px] w-[25px] text-white '/></div>
+              <span className="text-white text-xl font-medium">+91 9142574541</span>
+            </div>
           </div>
         </motion.div>
-        <motion.div 
-         initial={{opacity:0,scale:0.3}}
-         transition={{duration:1.5}}
-         whileInView={{opacity:1,scale:1}}
-        className="w-auto h-auto flex items-center rounded-full ">
-          <Tilt
-           style={{ borderRadius: "50%" }}>
+        <div
+          className="w-auto h-full xl:absolute lg:absolute md:static static z-20 right-12 flex items-center "
+        >
             <img
               src={pic}
               alt="pic"
-              className="lg:w-[30vw] md:w-[45vw] w-[80vw] h-auto  shadow-2xl"
-              style={{ borderRadius: "50%" }}
+              className=" h-[708px]  w-auto"
             />
-          </Tilt>
-        </motion.div>
+          {/* <Tilt style={{ borderRadius: "0%" }}>
+          </Tilt> */}
+        </div>
       </div>
-    </>
+    </div>
   );
 };
 

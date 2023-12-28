@@ -1,22 +1,106 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
 }
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
   display: none;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+.mainBg {
+  background-image: url(../src/Assests/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+button {
+  background: hsla(342, 92%, 26%, 1);
+
+  background: linear-gradient(
+    315deg,
+    hsla(342, 92%, 26%, 1) 0%,
+    hsla(342, 100%, 50%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    315deg,
+    hsla(342, 92%, 26%, 1) 0%,
+    hsla(342, 100%, 50%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    315deg,
+    hsla(342, 92%, 26%, 1) 0%,
+    hsla(342, 100%, 50%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#7F052A", endColorstr="#FF014F", GradientType=1 );
+}
+.heading {
+  padding: 10px 20px;
+  background: hsla(342, 92%, 26%, 1);
+
+  background: linear-gradient(
+    315deg,
+    hsla(342, 92%, 26%, 1) 0%,
+    hsla(342, 100%, 50%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    315deg,
+    hsla(342, 92%, 26%, 1) 0%,
+    hsla(342, 100%, 50%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    315deg,
+    hsla(342, 92%, 26%, 1) 0%,
+    hsla(342, 100%, 50%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#7F052A", endColorstr="#FF014F", GradientType=1 );
+}
+.text-gradient{
+  background: hsla(342, 92%, 26%, 1);
+
+  background: linear-gradient(
+    315deg,
+    hsla(342, 92%, 26%, 1) 0%,
+    hsla(342, 100%, 50%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    315deg,
+    hsla(342, 92%, 26%, 1) 0%,
+    hsla(342, 100%, 50%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    315deg,
+    hsla(342, 92%, 26%, 1) 0%,
+    hsla(342, 100%, 50%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#7F052A", endColorstr="#FF014F", GradientType=1 );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.contact-bg{
+  background-image: url(../src/Assests/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+}

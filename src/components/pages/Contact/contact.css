@@ -1,8 +1,4 @@
-#Contact{
-    background-image: url(../../../Assests/svg.png);
-    background-size:cover;
-    background-repeat: no-repeat;
-}
+
 
 input,textarea{
     all: unset;

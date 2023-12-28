@@ -1,83 +1,111 @@
 import React from "react";
 import contact from "../../../Assests/contact-book-svgrepo-com.svg";
 import "./contact.css";
-import ContactGif from "../../../Assests/output-onlinegiftools.gif";
-import icon from "../../../Assests/times-svgrepo-com.svg";
 import { PiPhoneCallBold } from "react-icons/pi";
 import { FiMail } from "react-icons/fi";
 import { IoPersonSharp } from "react-icons/io5";
-import shape from '../../../Assests/graph.png'
-import {MdOutlineLocationOn,MdMessage} from 'react-icons/md'
+import { MdMessage } from "react-icons/md";
+import Links from "../Links/Links";
+import {motion} from 'framer-motion'
 
 const Contact = () => {
   return (
     <div
       id="Contact"
-      className="overflow-x-hidden h-auto py-5 overflow-y-hidden mb-20 relative z-30 gap-6 flex flex-col justify-center items-center px-6 bg-[#f2f9f9]"
+      className="mainBg border-b-2 border-white/20 overflow-x-hidden h-auto  overflow-y-hidden relative z-30 gap-6 flex flex-col justify-center items-center  bg-[#f2f9f9]"
     >
-      <div className="triangle-left absolute bottom-12 right-12 hidden md:hidden lg:block xl:block z-0"></div>
-      <div className="triangle-right absolute bottom-12 left-12 hidden md:hidden lg:block xl:block z-0"></div>
-      <div className="flex flex-col justify-center items-center gap-2 text-5xl font-bold">
-        <div className="flex items-center gap-2">
+      <div className="contact-bg py-20 flex flex-col justify-center items-center gap-2 font-bold w-full">
+        <div className="flex  rounded-lg items-center gap-2">
           <img src={contact} alt="admi" className="h-[7vh] w-auto" />
-          <h1 className=" lg:text-[7vh] md:text-[7vh] text-3xl font-bold tracking-wide mb-2">
-            Contact <span className="text-[#245582]">Me</span>
+          <h1 className="xl:text-7xl lg:text-7xl md:text-3xl text-5xl font-bold tracking-wide text-white mb-2">
+            Contact <span className="text-white">Me</span>
           </h1>
         </div>
-        <div className="w-[110%] h-[4px] bg-[#aacded] rounded-2xl">
-          <div id="moving-div" className=" w-[8px] h-full rounded-full "></div>
-        </div>
       </div>
-      <h1 className="text-[2vh] font-semibold text-white/90 w-[63vw] text-center">
-        "Connect with Me! Whether it's about potential collaborations,
-        discussing projects, or any inquiries, I'm excited to engage. Your
-        message matters, so please don't hesitate to reach out using the contact
-        details provided below. Looking forward to connecting!"
-      </h1>
-      <div className="z-20 w-[100%] flex flex-col xl:flex-row lg:flex-row md:flex-row justify-center items-center gap-6">
-        <div className="w-auto flex flex-col items-start justify-start gap-3">
-          <img src={ContactGif} className="w-[25vw] h-auto hidden md:block lg:block xl:block" />
-          <div className="flex flex-col justify-center items-start gap-2">
-          <h1 className="text-2xl font-bold mb-1 border-b-2 b w-full text-center">Get in <span className=" text-[#245582] xl:text-[#68a9e4] lg:text-[#68a9e4] md:text-[#245582]">Touch</span></h1>
-          <div className="flex justify-center items-center gap-2  ">
-            <PiPhoneCallBold className="text-[#68a9e4] text-[3.5vh] w-auto font-extrabold border-2 border-[#68a9e4] rounded-full p-1"/>
-            <span className="text-[#424141] font-semibold">+91 91-425-74541</span>
+
+      <div
+        className="z-20 w-full pb-10 pt-5  flex flex-col xl:flex-row lg:flex-row md:flex-row justify-between xl:px-10 lg:px-10 md:px-4 px-4 items-center gap-6"
+      >
+        <div className=" flex xl:w-[50%] lg:w-[50%] md:w-full w-full flex-col items-start justify-start gap-7">
+          <div className="heading text-white text-2xl rounded-lg tracking-widest">
+            CONTACT ME
           </div>
-          <div className="flex justify-center items-center gap-2">
-              <FiMail className="text-[#68a9e4] text-[3.5vh] w-auto font-extrabold border-2 border-[#68a9e4] rounded-full p-1"/>
-               <span className="text-[#424141] font-semibold">shivamshaw9005@gmail.com</span>
+          <div className="text-white xl:text-6xl lg:text-6xl md:text-6xl text-4xl font-semibold">
+            How can I <span className="text-gradient">Help</span> you?
           </div>
-          <div className="flex justify-center items-center gap-2 ">
-          <MdOutlineLocationOn className="text-[#68a9e4] text-[3.5vh] w-auto font-extrabold border-2 border-[#68a9e4] rounded-full p-1"/><div className="text-[#424141] font-semibold">Chirkunda Dhanbad, India</div>
+          <div className="text-white/70 text-xl font-medium">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui,
+            ipsam.
           </div>
+          <div className="text-white/40 text-base ">
+            Lorem ipsum dolor sit amet consectetur, Lorem ipsum dolor sit amet
+            consectetur, adipisicing elit. Culpa, repudiandae. adipisicing elit.
+            Qui, ipsam.
           </div>
+          <div>
+            <div className="text-white/40 flex justify-start items-center gap-12 border-b border-white/40 w-full pb-2 text-lg">
+              <div className="">ADDRESS</div>
+              <div className="text-white/90"> : DHANBAD, JHARKHAND</div>
+            </div>
+            <div className="text-white/40 flex justify-start items-center gap-12 border-b border-white/40 w-full pb-2 text-lg">
+              <div className="">PHONE</div>
+              <div className="text-white/90"> : +91 9142574541</div>
+            </div>
+            <div className="text-white/40 flex justify-start items-center gap-12 border-b border-white/40 w-full pb-2 text-lg">
+              <div className="">EMAIL</div>
+              <div className="text-white/90"> : shivamshaw9005@gmail.com</div>
+            </div>
+          </div>
+          <Links />
         </div>
-        <div className=" px-2 py-2 border-2 bg-white rounded-lg w-auto shadow-xl">
+        <motion.div
+          initial={{x:200}}
+          whileInView={{x:0,transition:{duration:.5}}}
+          className=" xl:px-8 lg:px-8 md:px-4 px-4 py-4 border-2 xl:w-[50%] lg:w-[50%] md:w-full w-full border-black/70 bg-[#242323] shadow-2xl shadow-black rounded-lg ">
           <form className=" flex flex-col gap-3">
-            <div className="flex justify-start gap-2 items-center border-1  border-black rounded-xl px-4 bg-[#f1efef]">
-              <IoPersonSharp className="text-[#68a9e4]"/>
-              <input type="text" className="border-none bg-[#f1efef] py-2 font-semibold" placeholder="First name" />
+            <div className="text-3xl font-semibold pb-8 text-white">GET FREE QOUTE NOW!</div>
+            <div className="flex justify-start gap-2 items-center border-1  border-black rounded-lg px-4 bg-[#f1efef]">
+              <IoPersonSharp className="text-black/40" />
+              <input
+                type="text"
+                className="border-none bg-[#f1efef] py-2 font-semibold"
+                placeholder="First name"
+              />
             </div>
-            <div className="flex justify-start gap-2 items-center border-1  border-black rounded-xl px-4 bg-[#f1efef]">
-              <IoPersonSharp className="text-[#68a9e4]"/>
-              <input type="text" className="border-none bg-[#f1efef] py-2 font-semibold" placeholder="Last name" />
+            <div className="flex justify-start gap-2 items-center border-1  border-black rounded-lg px-4 bg-[#f1efef]">
+              <PiPhoneCallBold className="text-black/40" />
+              <input
+                type="text"
+                className="border-none bg-[#f1efef] py-2 font-semibold"
+                placeholder="Phone"
+              />
             </div>
-            <div className="flex justify-start gap-2 items-center border-1  border-black rounded-xl px-4 bg-[#f1efef]">
-              <PiPhoneCallBold className="text-[#68a9e4]"/>
-              <input type="text" className="border-none bg-[#f1efef] py-2 font-semibold" placeholder="Phone" />
+            <div className="flex justify-start gap-2 items-center border-1  border-black rounded-lg px-4 bg-[#f1efef]">
+              <FiMail className="text-black/40" />
+              <input
+                type="text"
+                className="border-none bg-[#f1efef] py-2 font-semibold"
+                placeholder="Mail"
+              />
             </div>
-            <div className="flex justify-start gap-2 items-center border-1  border-black rounded-xl px-4 bg-[#f1efef]">
-              <FiMail className="text-[#68a9e4]"/>
-              <input type="text" className="border-none bg-[#f1efef] py-2 font-semibold" placeholder="Mail" />
+            <div className="flex justify-strat gap-2 items-start border-1  border-black rounded-lg px-4 py-1 bg-[#f1efef]">
+              <MdMessage className="text-black/40 mt-2" />
+              <textarea
+                type="text"
+                className="border-none bg-[#f1efef] h-28 md:w-[13vw] xl:w-[13vw] lg:w-[13vw] w-full pl-2 font-semibold "
+                placeholder="message..."
+                height={10}
+              />
             </div>
-            <div className="flex justify-strat gap-2 items-start border-1  border-black rounded-xl px-4 py-1 bg-[#f1efef]">
-              <MdMessage className="text-[#68a9e4] mt-2"/>
-              <textarea type='text' className="border-none bg-[#f1efef] h-28 md:w-[13vw] xl:w-[13vw] lg:w-[13vw] w-full pl-2 font-semibold " placeholder="message..." height={10}/>
-            </div>
-            <button className="w-full py-2 bg-[#68a9e4] rounded-2xl font-semibold hover:font-bold transition-all duration-500">SEND MESSAGE </button>
-            <p className="line-clamp-2 text-xs text-[#969494] font-semibold">Contact details: the smallest print that holds the biggest connections.</p>
+            <button className="w-full py-2 rounded-lg font-semibold hover:font-bold transition-all duration-500 hover:opacity-80">
+              SEND MESSAGE{" "}
+            </button>
+            <p className="line-clamp-2 text-sm text-white/80 font-semibold">
+              Contact details: the smallest print that holds the biggest
+              connections.
+            </p>
           </form>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
