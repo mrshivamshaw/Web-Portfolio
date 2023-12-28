@@ -51,7 +51,7 @@ const Contact = () => {
               <div className="">PHONE</div>
               <div className="text-white/90"> : +91 9142574541</div>
             </div>
-            <div className="text-white/40 flex justify-start gap-[5vw] items-center border-b border-white/40 w-full pb-2 xl:text-lg lg:text-lg md:text-lg text-base">
+            <div className="text-white/40 flex justify-start gap-[3vw] items-center border-b border-white/40 w-full pb-2 xl:text-lg lg:text-lg md:text-lg text-base">
               <div className="">EMAIL</div>
               <div className="text-white/90"> : shivamshaw9005@gmail.com</div>
             </div>
