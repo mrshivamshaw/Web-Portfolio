@@ -17,8 +17,8 @@ const Contact = () => {
       <div className="contact-bg py-20 flex flex-col justify-center items-center gap-2 font-bold w-full">
         <div className="flex  rounded-lg items-center gap-2">
           <img src={contact} alt="admi" className="h-[7vh] w-auto" />
-          <h1 className="xl:text-7xl lg:text-7xl md:text-3xl text-5xl font-bold tracking-wide text-white mb-2">
-            Contact <span className="text-white">Me</span>
+          <h1 className="xl:text-7xl lg:text-7xl md:text-3xl text-4xl font-bold tracking-wide text-white mb-2">
+            Contact Me
           </h1>
         </div>
       </div>
@@ -27,8 +27,8 @@ const Contact = () => {
         className="z-20 w-full pb-10 pt-5  flex flex-col xl:flex-row lg:flex-row md:flex-row justify-between xl:px-10 lg:px-10 md:px-4 px-4 items-center gap-6"
       >
         <div className=" flex xl:w-[50%] lg:w-[50%] md:w-full w-full flex-col items-start justify-start gap-7">
-          <div className="heading text-white lg:text-[7vh] text-[#fff] md:text-[7vh] text-3xl rounded-lg tracking-widest">
-            CONTACT ME
+          <div className=" flex justify-center items-center xl:w-auto lg:w-auto md:w-full w-full">
+            <h1 className="heading text-center  text-white lg:text-[7vh] md:text-[7vh] text-3xl rounded-lg tracking-widest" style={{paddingBottom:"20px"}}>CONTACT ME</h1>
           </div>
           <div className="text-white xl:text-6xl lg:text-6xl md:text-6xl text-4xl font-semibold">
             How can I <span className="text-gradient">Help</span> you?
@@ -43,15 +43,15 @@ const Contact = () => {
             Qui, ipsam.
           </div>
           <div>
-            <div className="text-white/40 flex justify-start items-center gap-12 border-b border-white/40 w-full pb-2 text-lg">
+            <div className="text-white/40 flex justify-start items-center gap-[8vw] border-b border-white/40 w-full pb-2 xl:text-lg lg:text-lg md:text-lg text-base">
               <div className="">ADDRESS</div>
               <div className="text-white/90"> : DHANBAD, JHARKHAND</div>
             </div>
-            <div className="text-white/40 flex justify-start items-center gap-12 border-b border-white/40 w-full pb-2 text-lg">
+            <div className="text-white/40 flex justify-start items-center gap-[8vw] border-b border-white/40 w-full pb-2 xl:text-lg lg:text-lg md:text-lg text-base">
               <div className="">PHONE</div>
               <div className="text-white/90"> : +91 9142574541</div>
             </div>
-            <div className="text-white/40 flex justify-start items-center gap-12 border-b border-white/40 w-full pb-2 text-lg">
+            <div className="text-white/40 flex justify-start gap-[8vw] items-center border-b border-white/40 w-full pb-2 xl:text-lg lg:text-lg md:text-lg text-base">
               <div className="">EMAIL</div>
               <div className="text-white/90"> : shivamshaw9005@gmail.com</div>
             </div>
