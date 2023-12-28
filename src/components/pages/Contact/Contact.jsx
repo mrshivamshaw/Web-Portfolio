@@ -65,7 +65,7 @@ const Contact = () => {
           <form className=" flex flex-col gap-3">
             <div className="text-3xl font-semibold pb-8 text-white">GET FREE QOUTE NOW!</div>
             <div className="flex justify-start gap-2 items-center border-1 w-full border-black rounded-lg px-4 bg-[#f1efef]">
-              <IoPersonSharp className="text-black/40" />
+              <IoPersonSharp className="text-black" />
               <input
                 type="text"
                 className="border-none bg-[#f1efef] py-2 font-semibold"
@@ -73,7 +73,7 @@ const Contact = () => {
               />
             </div>
             <div className="flex justify-start gap-2 items-center border-1 w-full border-black rounded-lg px-4 bg-[#f1efef]">
-              <PiPhoneCallBold className="text-black/40" />
+              <PiPhoneCallBold className="text-black" />
               <input
                 type="text"
                 className="border-none bg-[#f1efef] py-2 font-semibold"
@@ -81,7 +81,7 @@ const Contact = () => {
               />
             </div>
             <div className="flex justify-start gap-2 items-center border-1 w-full border-black rounded-lg px-4 bg-[#f1efef]">
-              <FiMail className="text-black/40" />
+              <FiMail className="text-black" />
               <input
                 type="text"
                 className="border-none bg-[#f1efef] py-2 font-semibold"
