@@ -11,7 +11,7 @@ import Footer from "./components/Footer/Footer.jsx";
 import Shery from "sheryjs";
 function App() {
   Shery.mouseFollower({
-    color:"green"
+    
   })
   return (
     <div className="container min-h-screen max-w-[100vw] relative box-border overflow-x-hidden">
