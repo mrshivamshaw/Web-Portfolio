@@ -27,7 +27,7 @@ const Contact = () => {
         className="z-20 w-full pb-10 pt-5  flex flex-col xl:flex-row lg:flex-row md:flex-row justify-between xl:px-10 lg:px-10 md:px-4 px-4 items-center gap-6"
       >
         <div className=" flex xl:w-[50%] lg:w-[50%] md:w-full w-full flex-col items-start justify-start gap-7">
-          <div className="heading text-white text-2xl rounded-lg tracking-widest">
+          <div className="heading text-white lg:text-[7vh] text-[#fff] md:text-[7vh] text-3xl rounded-lg tracking-widest">
             CONTACT ME
           </div>
           <div className="text-white xl:text-6xl lg:text-6xl md:text-6xl text-4xl font-semibold">

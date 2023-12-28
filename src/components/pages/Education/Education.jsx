@@ -8,7 +8,7 @@ import {motion} from "framer-motion";
 const Education = () => {
   
   return (
-    <div id="Education" className="mainBg border-b-2 border-white/20 py-10 overflow-x-hidden h-auto mb-20  relative z-30 gap-6 flex flex-col justify-center items-center px-6">
+    <div id="Education" className="mainBg border-b-2 border-white/20 py-10 overflow-x-hidden h-auto mb-20  relative z-30 gap-6 flex flex-col justify-center items-center px-3">
       <motion.div 
       initial={{ opacity: 0, x: 100 }}
       whileInView={{
@@ -21,14 +21,14 @@ const Education = () => {
       <div className="z-30 flex flex-col justify-center items-center gap-2 text-5xl font-bold">
         <div className="flex items-center gap-2 heading rounded-lg">
           <img src={student} alt="admi" className="h-[7vh] w-auto" />
-          <h1 className=" lg:text-[7vh] text-[#fff] md:text-[7vh] text-3xl font-bold tracking-wide mb-2">
+          <h1 className=" lg:text-[7vh] text-[#fff] md:text-[7vh] text-2xl font-bold tracking-wide mb-2">
           My <span className="text-[#fff]">Education</span>
         </h1>
         </div>
       </div>
       <h1 className="text-center xl:text-6xl lg:text-6xl md:text-6xl text-4xl text-white font-semibold -mt-3">My History of <span className="text-gradient text-center">Success</span>.</h1>
       <div
-      className="flex flex-col gap-7 relative z-30 xl:w-auto lg:w-auto md:w-full w-full">
+        className="flex flex-col gap-7 relative z-30 xl:w-auto lg:w-auto md:w-full w-full">
         <motion.div initial={{x:-200}} whileInView={{x:0,transition:{duration:.5}}}  className="flex flex-col lg:flex-row md:flex-row gap-5 bg-[#242323] shadow-2xl shadow-black" >
           <img src={Aec} alt="college"  className="h-[25vh] w-full lg:w-[22vw] md:w-[22vw]"/>
           <div className="pr-10 p-3 flex flex-col justify-evenly bg-[#242323]">
