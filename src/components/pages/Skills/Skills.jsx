@@ -107,7 +107,7 @@ const Skills = () => {
           </h1>
         </div>
       </div>
-      <h1 className="text-center xl:text-6xl lg:text-6xl md:text-4xl text-4xl text-white font-semibold -mt-3">Innovative Solution to <span className="text-gradient text-center">Enhance</span>.</h1>
+      <h1 className="text-center xl:text-6xl lg:text-6xl md:text-4xl text-3xl text-white font-semibold -mt-3">Innovative Solution to <span className="text-gradient text-center">Enhance</span>.</h1>
       {/* <div className="flex md:flex-row lg:flex-row flex-col items-center justify-center lg:gap-20 gap-8 w-[100vw] md:w-[85vw] lg:w-[85vw] xl:w-[85vw] relative z-10">
         <div className="grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 grid-cols-3 lg:w-auto xl:w-auto md:w-auto w-screen justify-center place-content-center py-6 px-4 md:px-4 lg:px-0 xl:px-0 gap-4">
           {
