@@ -8,7 +8,7 @@ import {motion} from "framer-motion";
 const Education = () => {
   
   return (
-    <div id="Education" className="mainBg border-b-2 border-white/20 py-10 overflow-x-hidden h-auto mb-20  relative z-30 gap-6 flex flex-col justify-center items-center px-3">
+    <div id="Education" className="mainBg border-b-2 border-white/20 py-10 overflow-x-hidden h-auto  relative z-30 gap-6 flex flex-col justify-center items-center px-3">
       <motion.div 
       initial={{ opacity: 0, x: 100 }}
       whileInView={{
