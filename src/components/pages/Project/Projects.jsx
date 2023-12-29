@@ -5,6 +5,7 @@ import skillsafari from '../../../Assests/project/skillSafariImg.png'
 import protfolio from '../../../Assests/project/webPortfolio.png'
 import ezservice from '../../../Assests/project/ezservice.png'
 import ProjectCard from './ProjectCard'
+import project from '../../../Assests/project-management.png'
 
 const cardDetails = [
   {
@@ -50,7 +51,7 @@ const Projects = () => {
     <div className='mainBg w-[100vw] h-auto py-16'>
       <div className="z-30 flex flex-col justify-center items-center gap-2 text-5xl font-bold mx-auto mb-10">
         <div className="flex items-center gap-2 heading rounded-lg">
-          {/* <img src={student} alt="admi" className="h-[7vh] w-auto" /> */}
+          <img src={project} alt="admi" className="h-[7vh] w-auto" />
           <h1 className=" lg:text-[7vh] text-[#fff] md:text-[7vh] text-2xl font-bold tracking-wide mb-2">
           My <span className="text-[#fff]">Projects</span>
         </h1>
