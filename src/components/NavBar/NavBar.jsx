@@ -74,14 +74,16 @@ const NavBar = () => {
                   className="w-[80vw] flex flex-col justify-start bg-[#212121] items-start px-4 shadow-2xl rounded-b-xl  h-[100vh] text-[.82em]"
                 >
                   {section.map((item, index) => (
-                    <motion.li
-                      key={index}
-                      className=" .item text-xl w-full text-white py-6 hover:text-[#ff014f] font-medium hover:font-bold border-b-[.5px] border-b-[#fff] transition-all duration-300"
-                      onClick={navHandler}
-                      custom={index}
-                    >
-                      <a href={`#${item}`}>{item}</a>
-                    </motion.li>
+                    <a href={`#${item}`} className=" text-xl w-full text-white hover:text-[#ff014f] font-medium hover:font-bold border-b-[.5px] border-b-[#fff] transition-all duration-300">
+                      <motion.li
+                        key={index}
+                        className=" .item text-xl w-full text-white py-6 hover:text-[#ff014f] font-medium hover:font-bold transition-all duration-300"
+                        onClick={navHandler}
+                        custom={index}
+                      >
+                        {item}
+                      </motion.li>
+                    </a>
                   ))}
                 </motion.ul>
                 <div className="w-[20vw] bg-black/20  h-[100vh]"></div>
