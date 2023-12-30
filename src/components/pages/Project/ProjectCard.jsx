@@ -9,7 +9,7 @@ const ProjectCard = ({ imgSrc, heading, description, link ,gitLink }) => {
     <Tilt style={{zIndex:0}}> 
         <motion.div initial={{rotate : -20,x:-300}} whileInView={{rotate : 0, x: 0, transition :{duration:.5,delay:.1}}} className="w-auto h-[270px] group relative flex flex-col items-end justify-end z-30 overflow-y-hidden rounded-md shadow-md shadow-white">
         <img src={imgSrc} alt={imgSrc} className="w-full h-full absolute z-10" />
-        <div className="flex flex-col items-center justify-start  text-white absolute z-20 top-[230px] group-hover:top-[65px] transition-all duration-500 bg-[#242323ef]">
+        <div className="flex flex-col items-center justify-start  text-white absolute z-20 top-[230px] group-hover:top-[65px] transition-all h-full duration-500 bg-[#242323ef]">
             <div className="w-full pl-2 bg-[#000] font-bold text-2xl py-1">
             {heading}
             </div>
