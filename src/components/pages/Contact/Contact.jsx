@@ -37,7 +37,7 @@ const Contact = () => {
         toast.success("Thanks for contacting 😊")
       }
       else{
-        toast.error("Unable to contact")
+        toast.error(`${response.message}`)
       }
     } catch (error) {
       console.log(error);
