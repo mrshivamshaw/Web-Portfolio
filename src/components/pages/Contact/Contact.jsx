@@ -36,10 +36,8 @@ const Contact = () => {
       if(response.status >= 200 && response.status < 300) {
         toast.success("Thanks for contacting 😊")
       }
-      else{
-        toast.error(`${response.message}`)
-      }
     } catch (error) {
+      toast.error(error.response.data.message)
       console.log(error);
     }
 
