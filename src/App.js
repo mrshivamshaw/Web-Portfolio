@@ -9,6 +9,9 @@ import Contact from "./components/pages/Contact/Contact.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 
 import Shery from "sheryjs";
+import { ToastContainer } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
+
 function App() {
   Shery.mouseFollower({
     
@@ -18,11 +21,12 @@ function App() {
       <NavBar/>
       <section id="Home"><Home/></section>
       <section id="About"><About/></section>
-       <section id="Skills"><Skills/></section>
-     <section id="Education"><Education/></section>
+      <section id="Skills"><Skills/></section>
+      <section id="Education"><Education/></section>
       <section id="Projects"><Projects/></section>
       <section id="Contact"><Contact/></section> 
       <Footer/>
+      <ToastContainer/>
     </div>
   );
 }
