@@ -32,7 +32,7 @@ const NavBar = () => {
     >
       <div className="flex justify-center items-center">
         <h1 className="font-bold text-[#fff]">SHIVAM.</h1>
-        <img src={Logo} alt="" className="h-6" />
+        <img src={Logo} alt="" className="h-6"style={{filter:"grayscale(100%)"}} />
       </div>
       <motion.div className=" xl:block lg:block md:block hidden">
         <ul className="flex justify-center items-center gap-6 text-[.82em]">
