@@ -31,8 +31,8 @@ const NavBar = () => {
       className="h-[7vh] w-[100%]  z-50 py-2 lg:px-[8rem] md:px-[8rem] px-[5vw] flex justify-between  fixed top-0 items-center shadow-md rounded-b-xl"
     >
       <div className="flex justify-center items-center">
+        <h1 className="font-bold text-[#fff]">SHIVAM.</h1>
         <img src={Logo} alt="" className="h-6" />
-        <h1 className="font-bold text-[#fff]">SHIVAM</h1>
       </div>
       <motion.div className=" xl:block lg:block md:block hidden">
         <ul className="flex justify-center items-center gap-6 text-[.82em]">

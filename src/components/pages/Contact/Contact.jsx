@@ -66,7 +66,7 @@ const Contact = () => {
           <div className=" flex justify-center items-center xl:w-auto lg:w-auto md:w-full w-full">
             <h1
               className="heading text-center  text-white lg:text-[7vh] md:text-[7vh] text-3xl rounded-lg tracking-widest"
-              style={{ paddingBottom: "20px" }}
+              
             >
               CONTACT ME
             </h1>
@@ -75,28 +75,24 @@ const Contact = () => {
             How can I <span className="text-gradient">Help</span> you?
           </div>
           <div className="text-white/70 text-xl font-medium">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui,
-            ipsam.
+            Have a project in mind? Let's chat! Feel free to reach out for any inquiries or collaborations.
           </div>
           <div className="text-white/40 text-base ">
-            Lorem ipsum dolor sit amet consectetur, Lorem ipsum dolor sit amet
-            consectetur, adipisicing elit. Culpa, repudiandae. adipisicing elit.
-            Qui, ipsam.
-          </div>
+          Expect quick responses and dedicated support once you reach out. I'm committed to transforming ideas into impactful solutions through effective collaboration. Let's get started          </div>
           <div>
             <div className="text-white/40 flex justify-start items-center  border-b border-white/40 w-full pb-2 xl:text-lg lg:text-lg md:text-lg text-base">
-              <div className="">ADDRESS</div>
+              <div className="">ADDRESS&nbsp;</div>
               <div className="text-white/90">
                 {" "}
                 :&nbsp;&nbsp; DHANBAD, JHARKHAND
               </div>
             </div>
             <div className="text-white/40 flex justify-start items-center  border-b border-white/40 w-full pb-2 xl:text-lg lg:text-lg md:text-lg text-base">
-              <div className="">PHONE</div>
+              <div className="">PHONE &nbsp;</div>
               <div className="text-white/90"> :&nbsp; +91 9142574541</div>
             </div>
-            <div className="text-white/40 flex justify-start  items-center border-b border-white/40 w-full pb-2 xl:text-lg lg:text-lg md:text-lg text-base">
-              <div className="">EMAIL</div>
+            <div className="text-white/40 flex justify-start  items-center border-b border-white/40 w-full pb-2 xl:text-lg lg:text-lg md:text-lg text-[13.5px]">
+              <div className="">EMAIL&nbsp;</div>
               <div className="text-white/90">
                 {" "}
                 :&nbsp;&nbsp; shivamshaw9005@gmail.com
@@ -110,7 +106,7 @@ const Contact = () => {
           whileInView={{ x: 0, transition: { duration: 0.5 } }}
           className=" xl:px-8 lg:px-8 md:px-4 px-4 py-4 border-2 xl:w-[50%] lg:w-[50%] md:w-full w-full border-black/70 bg-[#242323] shadow-2xl shadow-black rounded-lg "
         >
-          <form className=" flex flex-col gap-3">
+          <form className=" flex flex-col gap-3 w-full">
             <div className="text-3xl font-semibold pb-8 text-white">
               GET FREE QOUTE NOW!
             </div>
@@ -118,7 +114,7 @@ const Contact = () => {
               <MdPerson className="text-black" />
               <input
                 type="text"
-                className="border-none bg-[#f1efef] py-2 font-semibold"
+                className="border-none bg-[#f1efef] py-2 font-semibold w-full"
                 placeholder="First name"
                 onChange={(e) => {
                   setName(e.target.value);
@@ -130,7 +126,7 @@ const Contact = () => {
               <MdPhone className="text-black" />
               <input
                 type="text"
-                className="border-none bg-[#f1efef] py-2 font-semibold"
+                className="border-none bg-[#f1efef] py-2 font-semibold w-full"
                 placeholder="Phone"
                 onChange={(e) => {
                   setPhone(e.target.value);
@@ -142,7 +138,7 @@ const Contact = () => {
               <MdMail className="text-black" />
               <input
                 type="text"
-                className="border-none bg-[#f1efef] py-2 font-semibold"
+                className="border-none bg-[#f1efef] py-2 font-semibold w-full"
                 placeholder="Mail"
                 onChange={(e) => {
                   setEmail(e.target.value);
@@ -150,11 +146,11 @@ const Contact = () => {
                 value={email}
               />
             </div>
-            <div className="flex justify-strat gap-2 items-start border-1  border-black rounded-lg px-4 py-1 bg-[#f1efef]">
-              <MdMessage className="text-black/40 mt-2" />
+            <div className="flex justify-strat gap-2 items-start border-1 w-full border-black rounded-lg px-4 py-1 bg-[#f1efef]">
+              <MdMessage className="text-black mt-2" />
               <textarea
                 type="text"
-                className="border-none bg-[#f1efef] h-28 md:w-[13vw] xl:w-[13vw] lg:w-[13vw] w-full pl-2 font-semibold "
+                className="border-none bg-[#f1efef] h-28  w-full pl-2 font-semibold "
                 placeholder="message..."
                 height={10}
                 onChange={(e) => {

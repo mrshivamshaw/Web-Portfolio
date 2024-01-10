@@ -1,7 +1,7 @@
 import React from "react";
 import gdsc from "../../../Assests/project/gdscwebsite.png";
 import healthyme from "../../../Assests/project/healthyme.png";
-import skillsafari from "../../../Assests/project/skillSafariImg.png";
+import codegyaan from "../../../Assests/project/codegyaan.png";
 import protfolio from "../../../Assests/project/webPortfolio.png";
 import ezservice from "../../../Assests/project/ezservice.png";
 import ProjectCard from "./ProjectCard";
@@ -9,38 +9,6 @@ import project from "../../../Assests/project-management.png";
 import protube from "../../../Assests/protube.png";
 
 const cardDetails = [
-  {
-    imgSrc: healthyme,
-    heading: "Healthy-Me",
-    description:"Creating a symptom-based chatbot for quick doctor and medicine recommendations, simplifying healthcare access. Be Healthy and Wealthy!",
-    link: "https://healthy-me-me.vercel.app/",
-    gitLink : "https://github.com/shivamshaw07/Healthy-me"
-  },
-  {
-    imgSrc: skillsafari,
-    heading: "Skill safari",
-    description:
-      "EdTech platform enabling instructors to sell coding projects, empowering students to easily access and learn from a variety of educational materials.",
-    link: "https://healthy-me-me.vercel.app/",
-    gitLink : "https://github.com/shivamshaw07/skill-safari"
-  },
-  {
-    imgSrc: protube,
-    heading: "ProTube",
-    description:
-      "Creating a symptom-based chatbot for quick doctor and medicine recommendations, simplifying healthcare access.  Be Healthy and Wealthy!",
-    link: "https://protube-one.vercel.app/",
-    gitLink: "https://github.com/shivamshaw07/ProTube",
-  },
-
-  {
-    imgSrc: protfolio,
-    heading: "My Portfolio Website",
-    description:
-      "Welcome to my personal portfolio website! Explore by scrolling down – you're in the right place to discover more about me and my work.",
-    link: "https://healthy-me-me.vercel.app/",
-    gitLink: "https://github.com/shivamshaw07/Web-Portfolio"
-  },
   {
     imgSrc: ezservice,
     heading: "EZ-Service Hub",
@@ -50,10 +18,41 @@ const cardDetails = [
     gitLink : "https://github.com/shivamshaw07/EZService-Hub"
   },
   {
+    imgSrc: protfolio,
+    heading: "My Portfolio Website",
+    description:
+      "Welcome to my personal portfolio website! Explore by scrolling down – you're in the right place to discover more about me and my work.",
+    link: "https://healthy-me-me.vercel.app/",
+    gitLink: "https://github.com/shivamshaw07/Web-Portfolio"
+  },
+  {
+    imgSrc: protube,
+    heading: "ProTube",
+    description:
+      "Created a YouTube clone project focused on mastering API integration. Learn API skills through practical application and tutorials",
+    link: "https://protube-one.vercel.app/",
+    gitLink: "https://github.com/shivamshaw07/ProTube",
+  },
+  {
+    imgSrc: codegyaan,
+    heading: "CodeGyaan",
+    description:
+      "EdTech platform enabling instructors to sell courses, empowering students to access and learn from a variety of educational materials.",
+    link: "https://code-gyaan.vercel.app/",
+    gitLink : "https://github.com/shivamshaw07/skill-safari"
+  },
+  {
+    imgSrc: healthyme,
+    heading: "Healthy-Me",
+    description:"Symptom-based chatbot for quick doctor and medicine recommendations, simplifying healthcare access. Be Healthy and Wealthy!",
+    link: "https://healthy-me-me.vercel.app/",
+    gitLink : "https://github.com/shivamshaw07/Healthy-me"
+  },
+  {
     imgSrc: gdsc,
     heading: "GDSC AEC Web-React",
     description:
-      "GDSC AEC team project: showcasing our team, past successful events, and upcoming initiatives to foster community engagement and innovation.",
+      "GDSC AEC team project: showcasing our team, past events, and upcoming initiatives to foster community engagement and innovation.",
     link: "https://gdscaec.club/",
     gitLink : "https://github.com/gdsc-aec-india/gdsc-aec-react"
   },

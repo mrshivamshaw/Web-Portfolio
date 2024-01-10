@@ -1,5 +1,5 @@
 import Typewriter from "typewriter-effect";
-import pic from "../../../Assests/IMG_20231224_094829_777-removebg-preview.png";
+import pic from "../../../Assests/cartoonHome.png";
 import Links from "../Links/Links";
 import "./home.css";
 import Tilt from "react-vanilla-tilt";
@@ -30,7 +30,7 @@ const Home = () => {
           initial={{opacity:0,y:-40}}
           whileInView={{opacity:1,y:0}}
           transition = {{duration:.4}} className="xl:text-7xl lg:text-7xl md:text-6xl text-6xl text-center font-bold text-[#fff]">
-            Hello I'm <span className="text-gradient">Shivam</span>
+            Hello I'm <span className="text-gradient">Shivam</span>.
           </motion.h1>
           <div className="xl:text-3xl lg:text-3xl md:text-2xl text-[1.1rem]  font-bold flex">
             <h1 className="text-[#fff]">I'm into&nbsp;</h1>
@@ -61,12 +61,12 @@ const Home = () => {
           </div>
         </motion.div>
         <div
-          className="w-auto h-full xl:absolute lg:absolute md:static static z-20 right-12 flex items-center "
+          className="w-auto h-full xl:absolute lg:absolute md:static static z-20 right-28 flex items-center "
         >
             <img
               src={pic}
               alt="pic"
-              className=" h-[708px]  w-auto"
+              className=" h-[600px]  w-auto"
             />
           {/* <Tilt style={{ borderRadius: "0%" }}>
           </Tilt> */}
