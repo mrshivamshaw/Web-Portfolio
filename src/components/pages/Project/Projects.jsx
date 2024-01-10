@@ -22,7 +22,7 @@ const cardDetails = [
     heading: "My Portfolio Website",
     description:
       "Welcome to my personal portfolio website! Explore by scrolling down – you're in the right place to discover more about me and my work.",
-    link: "https://healthy-me-me.vercel.app/",
+    link: "https://web-portfolio-seven-lemon.vercel.app/",
     gitLink: "https://github.com/shivamshaw07/Web-Portfolio"
   },
   {
