@@ -103,7 +103,7 @@ const About = () => {
         </div>
       </div>
       <a
-        href="https://drive.google.com/file/d/1ZyUSsVxuCsr9ET_PIaA8Xxbre_yetmte/view?usp=sharing"
+        href="https://drive.google.com/file/d/1mIZtUWrbrTO2y2H8hmdOLaqTE7VsFJZy/view?usp=sharing"
         download="https://drive.google.com/file/d/1ZyUSsVxuCsr9ET_PIaA8Xxbre_yetmte/view?usp=sharing"
       >
         <motion.button
