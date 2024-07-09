@@ -5,6 +5,8 @@ import Tilt from "react-vanilla-tilt";
 import { motion } from "framer-motion";
 import "./about.css";
 import { FaChevronCircleRight } from "react-icons/fa";
+import pdfFile from '../../../Assests/project/shivamshawresume.pdf'
+
 
 const About = () => {
   return (
@@ -102,10 +104,7 @@ const About = () => {
           </motion.div>
         </div>
       </div>
-      <a
-        href="https://drive.google.com/file/d/1yLcC0XHiUrjLJVuiJi884XzmIDwdJZp9/view?usp=sharing"
-        download="https://drive.google.com/file/d/1yLcC0XHiUrjLJVuiJi884XzmIDwdJZp9/view?usp=sharing"
-      >
+      <a href={pdfFile} target="_blank" rel="noopener noreferrer">
         <motion.button
           initial={{ opacity: 0.5, y: -30 }}
           animate={{

@@ -2,19 +2,11 @@ import React from "react";
 import reactIcon from "../../../Assests/icons/react-svgrepo-com.svg";
 import node from "../../../Assests/icons/node-js-svgrepo-com.svg";
 import express from "../../../Assests/icons/node-js-svgrepo-com (1).svg";
-import redux from "../../../Assests/icons/redux-svgrepo-com.svg";
-import DSA from "../../../Assests/icons/code-svgrepo-com.svg";
-import Mongo from "../../../Assests/icons/mongo-svgrepo-com.svg";
-import html from "../../../Assests/icons/html-5-svgrepo-com.svg";
-import css from "../../../Assests/icons/css-3-svgrepo-com.svg";
+import Typescript from "../../../Assests/icons/Typescript.png";
+import NextJs from "../../../Assests/icons/next-js.svg";
 import python from "../../../Assests/icons/python-svgrepo-com.svg";
 import js from "../../../Assests/icons/js-official-svgrepo-com.svg";
 import cpp from "../../../Assests/icons/c-.png";
-import c from "../../../Assests/icons/letter-c.png";
-import net from "../../../Assests/icons/netlify-svgrepo-com.svg";
-import git from "../../../Assests/icons/git-svgrepo-com.svg";
-import github from "../../../Assests/icons/github-142-svgrepo-com.svg";
-import team from "../../../Assests/icons/team-work-svgrepo-com.svg";
 import { motion } from "framer-motion";
 
 const skills = [
@@ -35,14 +27,14 @@ const skills = [
   },
 
   {
-    imgSrc: html,
-    text: "HTML",
-    level: 95,
+    imgSrc: Typescript,
+    text: "Typescript",
+    level: 85,
   },
   {
-    imgSrc: css,
-    text: "CSS3",
-    level: 95,
+    imgSrc: NextJs,
+    text: "NextJs",
+    level: 85,
   },
   {
     imgSrc: python,
@@ -70,7 +62,7 @@ const SkillLevel = () => {
           className="xl:w-[400px] lg:w-[400px] md:w-[300px] w-[300px] flex flex-col gap-1"
         >
           <div className="flex items-center justify-start gap-2">
-            <img src={item.imgSrc} alt={item.text} />
+            <img src={item.imgSrc} alt={item.text} className={`${item.text === "NextJs" ? "bg-white" : ""} rounded-full`}/>
             <div className="text-white text-lg font-medium">{item.text}</div>
           </div>
           <div className="flex justify-between items-center gap-3">

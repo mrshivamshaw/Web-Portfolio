@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import NavBar from "./components/NavBar/NavBar.jsx";
 import About from "./components/pages/About/About";
 import Home from "./components/pages/Home/Home.jsx";
@@ -13,6 +13,18 @@ import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
+  useEffect(() => {
+    const handleVisibilityChange = () => {
+      document.title = document.hidden ? 'Come back👋' : 'Shivam | Portfolio';
+    };
+
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+
+    // Clean up the event listener
+    return () => {
+      document.removeEventListener('visibilitychange', handleVisibilityChange);
+    };
+  }, []); // Empty dependency array ensures effect runs only on mount
   Shery.mouseFollower({
     
   })

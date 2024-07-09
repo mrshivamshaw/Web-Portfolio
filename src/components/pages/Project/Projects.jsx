@@ -1,5 +1,4 @@
 import React from "react";
-import gdsc from "../../../Assests/project/gdscwebsite.png";
 import healthyme from "../../../Assests/project/healthyme.png";
 import codegyaan from "../../../Assests/project/codegyaan.png";
 import protfolio from "../../../Assests/project/webPortfolio.png";
@@ -7,8 +6,33 @@ import ezservice from "../../../Assests/project/ezservice.png";
 import ProjectCard from "./ProjectCard";
 import project from "../../../Assests/project-management.png";
 import protube from "../../../Assests/protube.png";
+import chatApp from '../../../Assests/project/chatApp.png'
 
 const cardDetails = [
+  {
+    imgSrc: codegyaan,
+    heading: "CodeGyaan",
+    description:
+      "EdTech platform enabling instructors to sell courses, empowering students to access and learn from a variety of educational materials.",
+    link: "https://code-gyaan.vercel.app/",
+    gitLink : "https://github.com/shivamshaw07/skill-safari"
+  },
+  {
+    imgSrc: chatApp,
+    heading: "ChatApp",
+    description:
+      "Real-Time Chat Application Built with PERN Stack, Prisma, TypeScript, and Socket.IO",
+    link: "https://gdscaec.club/",
+    gitLink : "https://github.com/gdsc-aec-india/gdsc-aec-react"
+  },
+  {
+    imgSrc: protube,
+    heading: "ProTube",
+    description:
+      "Created a YouTube clone project focused on mastering API integration. Learn API skills through practical application and tutorials",
+    link: "https://pern-chat-app.vercel.app/",
+    gitLink: "https://github.com/shivamshaw07/ProTube",
+  },
   {
     imgSrc: ezservice,
     heading: "EZ-Service Hub",
@@ -26,35 +50,11 @@ const cardDetails = [
     gitLink: "https://github.com/shivamshaw07/Web-Portfolio"
   },
   {
-    imgSrc: protube,
-    heading: "ProTube",
-    description:
-      "Created a YouTube clone project focused on mastering API integration. Learn API skills through practical application and tutorials",
-    link: "https://protube-one.vercel.app/",
-    gitLink: "https://github.com/shivamshaw07/ProTube",
-  },
-  {
-    imgSrc: codegyaan,
-    heading: "CodeGyaan",
-    description:
-      "EdTech platform enabling instructors to sell courses, empowering students to access and learn from a variety of educational materials.",
-    link: "https://code-gyaan.vercel.app/",
-    gitLink : "https://github.com/shivamshaw07/skill-safari"
-  },
-  {
     imgSrc: healthyme,
     heading: "Healthy-Me",
     description:"Symptom-based chatbot for quick doctor and medicine recommendations, simplifying healthcare access. Be Healthy and Wealthy!",
     link: "https://healthy-me-me.vercel.app/",
     gitLink : "https://github.com/shivamshaw07/Healthy-me"
-  },
-  {
-    imgSrc: gdsc,
-    heading: "GDSC AEC Web-React",
-    description:
-      "GDSC AEC team project: showcasing our team, past events, and upcoming initiatives to foster community engagement and innovation.",
-    link: "https://gdscaec.club/",
-    gitLink : "https://github.com/gdsc-aec-india/gdsc-aec-react"
   },
 ];
 
