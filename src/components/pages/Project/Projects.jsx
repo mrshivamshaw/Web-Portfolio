@@ -14,7 +14,7 @@ const cardDetails = [
     heading: "CodeGyaan",
     description:
       "EdTech platform enabling instructors to sell courses, empowering students to access and learn from a variety of educational materials.",
-    link: "https://code-gyaan.vercel.app/",
+    link: "https://code-gyaan2.vercel.app/",
     gitLink : "https://github.com/shivamshaw07/skill-safari"
   },
   {
@@ -22,7 +22,7 @@ const cardDetails = [
     heading: "ChatApp",
     description:
       "Real-Time Chat Application Built with PERN Stack, Prisma, TypeScript, and Socket.IO",
-    link: "https://gdscaec.club/",
+    link: "https://pern-chat-app.vercel.app/",
     gitLink : "https://github.com/gdsc-aec-india/gdsc-aec-react"
   },
   {
@@ -30,7 +30,7 @@ const cardDetails = [
     heading: "ProTube",
     description:
       "Created a YouTube clone project focused on mastering API integration. Learn API skills through practical application and tutorials",
-    link: "https://pern-chat-app.vercel.app/",
+    link: "https://protube-one.vercel.app/",
     gitLink: "https://github.com/shivamshaw07/ProTube",
   },
   {
@@ -46,7 +46,7 @@ const cardDetails = [
     heading: "My Portfolio Website",
     description:
       "Welcome to my personal portfolio website! Explore by scrolling down – you're in the right place to discover more about me and my work.",
-    link: "https://web-portfolio-seven-lemon.vercel.app/",
+    link: "https://shivam-eng.vercel.app/",
     gitLink: "https://github.com/shivamshaw07/Web-Portfolio"
   },
   {
