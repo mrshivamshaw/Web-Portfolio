@@ -52,7 +52,7 @@ const cardDetails = [
   {
     imgSrc: razorpay,
     heading: "Razorpay clone",
-    description:"Made frontend clone of razorpay!",
+    description:"Developed a Razorpay frontend clone using HTML and Tailwind CSS, featuring a responsive design and key components for a seamless user experience.",
     link: "https://shivamshaw07.github.io/Razropay-clone/",
     gitLink : "https://github.com/shivamshaw07/Razropay-clone"
   },
