@@ -5,7 +5,7 @@ import Tilt from "react-vanilla-tilt";
 import { motion } from "framer-motion";
 import "./about.css";
 import { FaChevronCircleRight } from "react-icons/fa";
-import pdfFile from '../../../Assests/project/shivamshawresume.pdf'
+import pdfFile from '../../../Assests/project/shivamshaw (1).pdf'
 
 
 const About = () => {
