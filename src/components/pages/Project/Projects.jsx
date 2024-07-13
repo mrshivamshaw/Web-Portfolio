@@ -51,8 +51,8 @@ const cardDetails = [
   },
   {
     imgSrc: healthyme,
-    heading: "Healthy-Me",
-    description:"Symptom-based chatbot for quick doctor and medicine recommendations, simplifying healthcare access. Be Healthy and Wealthy!",
+    heading: "Razorpay clone",
+    description:"Made frontend clone of razorpay!",
     link: "https://healthy-me-me.vercel.app/",
     gitLink : "shivamshaw07.github.io/Razropay-clone/"
   },
