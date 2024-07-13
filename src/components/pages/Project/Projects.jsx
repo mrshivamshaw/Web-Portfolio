@@ -1,5 +1,5 @@
 import React from "react";
-import healthyme from "../../../Assests/project/healthyme.png";
+import razorpay from "../../../Assests/project/razorpay.png";
 import codegyaan from "../../../Assests/project/codegyaan.png";
 import protfolio from "../../../Assests/project/webPortfolio.png";
 import ezservice from "../../../Assests/project/ezservice.png";
@@ -54,7 +54,7 @@ const cardDetails = [
     heading: "Healthy-Me",
     description:"Symptom-based chatbot for quick doctor and medicine recommendations, simplifying healthcare access. Be Healthy and Wealthy!",
     link: "https://healthy-me-me.vercel.app/",
-    gitLink : "https://github.com/shivamshaw07/Healthy-me"
+    gitLink : "shivamshaw07.github.io/Razropay-clone/"
   },
 ];
 
