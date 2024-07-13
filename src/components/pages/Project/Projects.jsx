@@ -50,11 +50,11 @@ const cardDetails = [
     gitLink: "https://github.com/shivamshaw07/Web-Portfolio"
   },
   {
-    imgSrc: healthyme,
+    imgSrc: razorpay,
     heading: "Razorpay clone",
     description:"Made frontend clone of razorpay!",
-    link: "https://healthy-me-me.vercel.app/",
-    gitLink : "shivamshaw07.github.io/Razropay-clone/"
+    link: "https://shivamshaw07.github.io/Razropay-clone/",
+    gitLink : "https://github.com/shivamshaw07/Razropay-clone"
   },
 ];
 
