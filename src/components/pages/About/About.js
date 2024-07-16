@@ -57,7 +57,7 @@ const About = () => {
             transition={{ duration: 1.2 }}
             className="font-normal text-white/90 text-[2vh]"
           >
-            I'm a second-year Computer Science student at Asansol Engineering
+            I'm a third-year Computer Science student at Asansol Engineering
             College, deeply passionate about tech. At GDSC AEC, I'm a
             Competitive Programming Facilitator, working on our club's website
             and diving into web development challenges with my team.
