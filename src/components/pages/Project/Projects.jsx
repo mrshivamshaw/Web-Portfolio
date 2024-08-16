@@ -15,7 +15,7 @@ const cardDetails = [
     description:
       "EdTech platform enabling instructors to sell courses, empowering students to access and learn from a variety of educational materials.",
     link: "https://code-gyaan2.vercel.app/",
-    gitLink : "https://github.com/shivamshaw07/skill-safari"
+    gitLink : "https://github.com/mrshivamshaw/skill-safari"
   },
   {
     imgSrc: chatApp,
@@ -31,7 +31,7 @@ const cardDetails = [
     description:
       "Created a YouTube clone project focused on mastering API integration. Learn API skills through practical application and tutorials",
     link: "https://protube-one.vercel.app/",
-    gitLink: "https://github.com/shivamshaw07/ProTube",
+    gitLink: "https://github.com/mrshivamshaw/ProTube",
   },
   {
     imgSrc: ezservice,
@@ -39,7 +39,7 @@ const cardDetails = [
     description:
       "EZ-Service Hub: Your Personalized Connection to Reliable and Trusted Local Services, Simplifying Access for All Your Needs",
     link: "https://ez-service-hub.vercel.app/",
-    gitLink : "https://github.com/shivamshaw07/EZService-Hub"
+    gitLink : "https://github.com/mrshivamshaw/EZService-Hub"
   },
   {
     imgSrc: protfolio,
@@ -47,14 +47,14 @@ const cardDetails = [
     description:
       "Welcome to my personal portfolio website! Explore by scrolling down – you're in the right place to discover more about me and my work.",
     link: "https://shivam-eng.vercel.app/",
-    gitLink: "https://github.com/shivamshaw07/Web-Portfolio"
+    gitLink: "https://github.com/mrshivamshaw/Web-Portfolio"
   },
   {
     imgSrc: razorpay,
     heading: "Razorpay clone",
     description:"Developed a Razorpay frontend clone using HTML and Tailwind CSS, featuring a responsive design and key components for a seamless user experience.",
     link: "https://shivamshaw07.github.io/Razropay-clone/",
-    gitLink : "https://github.com/shivamshaw07/Razropay-clone"
+    gitLink : "https://github.com/mrshivamshaw/Razropay-clone"
   },
 ];
 
