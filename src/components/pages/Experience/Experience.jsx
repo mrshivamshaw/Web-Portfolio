@@ -58,7 +58,7 @@ const Education = () => {
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff", }}
           icon={<ImageIcon imgSrc={gpt}/>} // Replace with actual image URL
         >
-          <h3 className="vertical-timeline-element-title">SD Intern</h3>
+          <h3 className="vertical-timeline-element-title">Software Developer Intern</h3>
           <h4 className="vertical-timeline-element-subtitle">
             GrowthPurple Technologies (Remote)
           </h4>
@@ -83,7 +83,7 @@ const Education = () => {
           icon={<ImageIcon imgSrc={smt}/>}
         >
           <h3 className="vertical-timeline-element-title">
-            Freelance Developer
+            Freelancer
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
             Small Town Talks
