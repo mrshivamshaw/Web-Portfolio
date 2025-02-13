@@ -4,7 +4,7 @@ import "./contact.css";
 import { MdMail, MdMessage, MdPerson, MdPhone } from "react-icons/md";
 import Links from "../Links/Links";
 import { motion } from "framer-motion";
-import axios from "axios";
+import emailjs from "emailjs-com";
 import 'react-toastify/dist/ReactToastify.css';
 import { toast } from "react-toastify";
 
@@ -17,30 +17,36 @@ const Contact = () => {
 
   const formSubmitHandler = async (e) => {
     e.preventDefault();
-
+  
+    if (!name || !email || !phone || !message) {
+      toast.error("All fields are required!");
+      return;
+    }
+  
+    const templateParams = {
+      name,
+      phone,
+      email,
+      message,
+    };
+  
     try {
-      const response = await axios.post(
-        "https://web-portfolio-backend-xi.vercel.app/send-email",
-        {
-          name,
-          phone,
-          email,
-          message,
-        },
-        {
-          headers: {
-            "Content-Type": "application/json",
-          },
-        }
+      const response = await emailjs.send(
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+        templateParams,
+        process.env.REACT_APP_EMAILJS_PUBLIC_KEY
       );
-      if(response.status >= 200 && response.status < 300) {
-        toast.success("Thanks for contacting 😊")
+  
+      if (response.status === 200) {
+        toast.success("Thanks for contacting 😊");
       }
     } catch (error) {
-      toast.error(error.response.data.message)
-      console.log(error);
+      toast.error("Something went wrong! Please try again.");
+      console.error(error);
     }
-
+  
+    // Reset form fields
     setName("");
     setEmail("");
     setPhone("");
