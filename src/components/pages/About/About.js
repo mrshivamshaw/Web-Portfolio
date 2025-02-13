@@ -78,7 +78,7 @@ const About = () => {
             transition={{ duration: 1.6 }}
             className="font-normal text-white/90 text-[2vh]"
           >
-            Absolutely, how about this? Beyond personal growth, I'm all about
+            Beyond personal growth, I'm all about
             community. While I don't create content online, I'm dedicated to
             learning with my peers and contributing to the advancement of our
             tech circle.

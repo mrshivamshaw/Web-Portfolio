@@ -5,6 +5,7 @@ import Home from "./components/pages/Home/Home.jsx";
 import Skills from "./components/pages/Skills/Skills.jsx";
 import Education from "./components/pages/Education/Education.jsx";
 import Projects from "./components/pages/Project/Projects.jsx";
+import Experience from "./components/pages/Experience/Experience.jsx";
 import Contact from "./components/pages/Contact/Contact.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 
@@ -35,6 +36,7 @@ function App() {
       <section id="About"><About/></section>
       <section id="Skills"><Skills/></section>
       <section id="Education"><Education/></section>
+      <section id="Experience"><Experience/></section>
       <section id="Projects"><Projects/></section>
       <section id="Contact"><Contact/></section> 
       <Footer/>

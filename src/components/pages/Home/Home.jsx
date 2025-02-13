@@ -51,7 +51,7 @@ const Home = () => {
               &gt;
             </span>
           </div>
-          <p className="text-white/70 xl:text-2xl lg:text-2xl md:text-lg text-lg font-normal text-center">I am Gifted for experience with Better Service & Faster. I was able to help <br /> the client and successfully created with an identity.</p>
+          <p className="text-white/70 xl:text-2xl lg:text-2xl md:text-lg text-lg font-normal lg:text-start xl;:text-start md:text-center  text-center">I am Gifted for experience with Better Service & Faster. I was able to help <br /> the client and successfully created with an identity.</p>
           <div className="text-[#ff014f] flex xl:flow-row lg:flex-row md:flex-col flex-col items-start justify-center gap-9">
             <Links />
             <div className="flex justify-center items-center gap-2 w-full">

@@ -6,7 +6,7 @@ import { FaTimes } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 
-const section = ["Home", "About", "Skill", "Education", "Projects", "Contact"];
+const section = ["Home", "About", "Skill", "Education", "Experience", "Projects", "Contact"];
 
 const NavBar = () => {
   const topNavRef = useRef();
