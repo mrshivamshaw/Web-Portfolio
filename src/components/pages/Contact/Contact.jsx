@@ -143,9 +143,9 @@ const Contact = () => {
             <div className="flex justify-start gap-2 items-center border-1 w-full border-black rounded-lg px-4 bg-[#f1efef]">
               <MdMail className="text-black" />
               <input
-                type="text"
+                type="email"
                 className="border-none bg-[#f1efef] py-2 font-semibold w-full"
-                placeholder="Mail"
+                placeholder="email"
                 onChange={(e) => {
                   setEmail(e.target.value);
                 }}
