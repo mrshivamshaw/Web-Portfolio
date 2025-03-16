@@ -15,7 +15,7 @@ const cardDetails = [
     description:
       "EdTech platform enabling instructors to sell courses, empowering students to access and learn from a variety of educational materials.",
     link: "https://code-gyaan2.vercel.app/",
-    gitLink : "https://github.com/mrshivamshaw/skill-safari"
+    gitLink : "https://github.com/mrshivamshaw/CodeGyaan2"
   },
   {
     imgSrc: chatApp,

@@ -2,8 +2,7 @@ import Typewriter from "typewriter-effect";
 import pic from "../../../Assests/cartoonHome.png";
 import Links from "../Links/Links";
 import "./home.css";
-import Tilt from "react-vanilla-tilt";
-import { motion, spring } from "framer-motion";
+import { motion } from "framer-motion";
 import { FiPhoneCall } from "react-icons/fi";
 
 const Home = () => {
