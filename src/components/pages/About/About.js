@@ -90,7 +90,7 @@ const About = () => {
             className="flex flex-wrap text-sm gap-1"
           >
             <div className="w-[48%] mb-2">
-              <span className="text-[#ff014f]">Age</span><span className="text-white/90"> : 19</span>
+              <span className="text-[#ff014f]">Age</span><span className="text-white/90"> : 20</span>
             </div>
             <div className="w-[48%] mb-2">
               <span className="text-[#ff014f]">Email</span><span className="text-white/90"> : shivamshaw9005@gamil.com</span>
@@ -112,7 +112,7 @@ const About = () => {
             y: 0,
             transition: { duration: 1 },
           }}
-          className="px-8 py-3 rounded-full text-xl font-semibold hover:font-bold hover:scale-90 shadow-xl hover:shadow-2xl transition-all duration-500"
+          className="text-white px-8 py-3 rounded-full text-xl font-semibold hover:font-bold hover:scale-90 shadow-xl hover:shadow-2xl transition-all duration-500"
         >
           Resume{" "}
           <span>

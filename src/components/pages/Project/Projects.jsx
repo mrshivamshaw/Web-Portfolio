@@ -1,5 +1,5 @@
 import React from "react";
-import razorpay from "../../../Assests/project/razorpay.png";
+import dbvoice  from "../../../Assests/project/dbvoice.png";
 import codegyaan from "../../../Assests/project/codegyaan.png";
 import protfolio from "../../../Assests/project/webPortfolio.png";
 import ezservice from "../../../Assests/project/ezservice.png";
@@ -9,6 +9,14 @@ import protube from "../../../Assests/protube.png";
 import chatApp from '../../../Assests/project/chatApp.png'
 
 const cardDetails = [
+  {
+    imgSrc: dbvoice,
+    heading: "AIQueryNet",
+    description:
+      "AIQueryNet: A RAG-based tool using ChromaDB and OpenAI LLM to convert natural language into accurate queries, with voice input and sentiment analysis integration.",
+    link: "https://aiquerynet.vercel.app",
+    gitLink : "https://github.com/mrshivamshaw/VoiDB-RAG-frontend"
+  },
   {
     imgSrc: codegyaan,
     heading: "CodeGyaan",
@@ -48,13 +56,6 @@ const cardDetails = [
       "Welcome to my personal portfolio website! Explore by scrolling down – you're in the right place to discover more about me and my work.",
     link: "https://shivam-eng.vercel.app/",
     gitLink: "https://github.com/mrshivamshaw/Web-Portfolio"
-  },
-  {
-    imgSrc: razorpay,
-    heading: "Razorpay clone",
-    description:"Developed a Razorpay frontend clone using HTML and Tailwind CSS, featuring a responsive design and key components for a seamless user experience.",
-    link: "https://shivamshaw07.github.io/Razropay-clone/",
-    gitLink : "https://github.com/mrshivamshaw/Razropay-clone"
   },
 ];
 
