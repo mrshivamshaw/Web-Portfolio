@@ -55,25 +55,20 @@ const Education = () => {
           contentStyle={{ background: "#ff014f", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  #ff014f" }}
           date="Aug 2024 — Present"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff", }}
-          icon={<ImageIcon imgSrc={gpt}/>} // Replace with actual image URL
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<ImageIcon imgSrc={gpt} />} // Replace with actual image URL
         >
           <h3 className="vertical-timeline-element-title">Software Developer Intern</h3>
           <h4 className="vertical-timeline-element-subtitle">
             GrowthPurple Technologies (Remote)
           </h4>
           <p>
-            • Developed and deployed an SAT preparation platform using Laravel,
-            React, and MySQL.
-            <br />
-            • Designed UI and built backend APIs.
-            <br />
-            • Integrated PayPal payments and implemented a quiz feature.
-            <br />• Created a user-friendly back-office for efficient data
-            management.
+            • Built an event-driven automation system with Django and React, cutting manual workflows by 65%.<br />
+            • Developed <strong>PlutonAI</strong>, a GenAI platform generating deployable React/Next/Vue apps via Claude LLM and WebContainers.<br />
+            • Launched <strong>FirstRound</strong>, an AI interview tool with live video, auto-transcription, and BI dashboards—boosting HR decisions by 55%.
           </p>
         </VerticalTimelineElement>
-
+        
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#242323", color: "#fff" }}

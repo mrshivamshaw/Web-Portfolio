@@ -57,10 +57,7 @@ const About = () => {
             transition={{ duration: 1.2 }}
             className="font-normal text-white/90 text-[2vh]"
           >
-            I'm a third-year Computer Science student at Asansol Engineering
-            College, deeply passionate about tech. At GDSC AEC, I'm a
-            Competitive Programming Facilitator, working on our club's website
-            and diving into web development challenges with my team.
+            I’m a third-year CSE student at Asansol Engineering College and an SDE Intern at GrowthPurple Technologies. I build full-stack apps using React, Node.js, Django, and Laravel, ranging from GenAI platforms to real-time chat systems.
           </motion.p>
           <motion.p
             initial={{ opacity: 0, x: 50 }}
@@ -68,9 +65,7 @@ const About = () => {
             transition={{ duration: 1.4 }}
             className="font-normal text-white/90 text-[2vh]"
           >
-            My tech journey is hands-on—I love solving problems and coding. I
-            learn best by doing, exploring software development beyond the
-            classroom.
+            I love turning ideas into scalable systems. From event-driven workflows and AI schedulers to Razorpay integrations and SQL-generating voice bots, I focus on building products that actually do something meaningful.
           </motion.p>
           <motion.p
             initial={{ opacity: 0, x: 50 }}
@@ -78,10 +73,7 @@ const About = () => {
             transition={{ duration: 1.6 }}
             className="font-normal text-white/90 text-[2vh]"
           >
-            Beyond personal growth, I'm all about
-            community. While I don't create content online, I'm dedicated to
-            learning with my peers and contributing to the advancement of our
-            tech circle.
+            As a CP lead at GDGC AEC, I’ve solved 300+ DSA problems and love the logic behind the code. I’m all about clean builds, smart teamwork, and pushing limits, so I can do one deploy at a time.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: -160 }}
