@@ -54,7 +54,7 @@ const Education = () => {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#ff014f", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  #ff014f" }}
-          date="Aug 2024 — Present"
+          date="Aug 2024 — July 2025"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<ImageIcon imgSrc={gpt} />} // Replace with actual image URL
         >
@@ -64,7 +64,7 @@ const Education = () => {
           </h4>
           <p>
             • Built an event-driven automation system with Django and React, cutting manual workflows by 65%.<br />
-            • Developed <strong>PlutonAI</strong>, a GenAI platform generating deployable React/Next/Vue apps via Claude LLM and WebContainers.<br />
+            • Developed <strong>PlutonAI</strong>, a GenAI-powered coding SaaS that generates full-stack applications with multi-routing via Traefik, containerized using Docker. Optimized the app generation process, achieving a 50% improvement in speed.<br />
             • Launched <strong>FirstRound</strong>, an AI interview tool with live video, auto-transcription, and BI dashboards—boosting HR decisions by 55%.
           </p>
         </VerticalTimelineElement>

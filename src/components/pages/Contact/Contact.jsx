@@ -71,7 +71,7 @@ const Contact = () => {
         <div className=" flex xl:w-[50%] lg:w-[50%] md:w-full w-full flex-col items-start justify-start gap-7">
           <div className=" flex justify-center items-center xl:w-auto lg:w-auto md:w-full w-full">
             <h1
-              className="heading text-center  text-white lg:text-[7vh] md:text-[7vh] text-3xl rounded-lg tracking-widest"
+              className="heading text-center  text-white xl:text-7xl lg:text-7xl md:text-3xl text-4xl font-semibold tracking-wide rounded-lg"
               
             >
               CONTACT ME
@@ -167,7 +167,7 @@ const Contact = () => {
             </div>
             <button
               onClick={formSubmitHandler}
-              className="w-full py-2 rounded-lg font-semibold hover:font-bold transition-all duration-500 hover:opacity-80"
+              className="w-full text-white py-2 rounded-lg font-semibold hover:font-bold transition-all duration-500 hover:opacity-80"
             >
               SEND MESSAGE{" "}
             </button>

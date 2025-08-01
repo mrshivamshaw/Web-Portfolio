@@ -5,7 +5,7 @@ import Tilt from "react-vanilla-tilt";
 import { motion } from "framer-motion";
 import "./about.css";
 import { FaChevronCircleRight } from "react-icons/fa";
-import pdfFile from '../../../Assests/project/shivamshawpdf.pdf'
+import pdfFile from '../../../Assests/project/shivamshaw.pdf'
 
 
 const About = () => {
@@ -57,7 +57,7 @@ const About = () => {
             transition={{ duration: 1.2 }}
             className="font-normal text-white/90 text-[2vh]"
           >
-            I’m a third-year CSE student at Asansol Engineering College and an SDE Intern at GrowthPurple Technologies. I build full-stack apps using React, Node.js, Django, and Laravel, ranging from GenAI platforms to real-time chat systems.
+            I’m a final-year CSE student at Asansol Engineering College and an ex-SDE Intern at GrowthPurple Technologies. I build full-stack apps using React, Node.js, Django, and Laravel, ranging from GenAI platforms to real-time chat systems.
           </motion.p>
           <motion.p
             initial={{ opacity: 0, x: 50 }}
