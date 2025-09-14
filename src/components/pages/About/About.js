@@ -96,7 +96,7 @@ const About = () => {
           </motion.div>
         </div>
       </div>
-      <a href="https://drive.google.com/file/d/132MeNOI430X3Byx64uW-0fPnWzAqP0EV/view" target="_blank" rel="noopener noreferrer">
+      <a href="https://drive.google.com/file/d/1EfC0ljJC0NMaFGt7IH8jCIt2GFHcBPQN/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
         <motion.button
           initial={{ opacity: 0.5, y: -30 }}
           animate={{
